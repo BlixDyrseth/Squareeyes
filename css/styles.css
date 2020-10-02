@@ -2,5 +2,10 @@ body {
     background-color: pink; 
    }
    h1 {
-       font-size: 100;
+       font-size: 100px;
        color: blue;
+   }
+
+nav li {
+display: inline-block;
+}
