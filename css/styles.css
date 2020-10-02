@@ -3,6 +3,9 @@ body {
    }
 header {
    background-color: darkgray;
+} 
+footer {
+    background-color: darkgray;
     }   
    h1 {
        font-size: 100px;
@@ -11,6 +14,7 @@ header {
    h2 {
      font-size: 75pxx;  
      color: blue;
+    }
 nav li {
 display: inline-block;
 }
