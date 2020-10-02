@@ -1,11 +1,19 @@
 body {
     background-color: pink; 
    }
+Main {
+    background-color: cornsilk;
+    }   
    h1 {
        font-size: 100px;
        color: blue;
    }
-
+   h2 {
+     font-size: 75;  
+     color: blue;
 nav li {
 display: inline-block;
 }
+nav ul {
+    padding: 0px;
+    }
