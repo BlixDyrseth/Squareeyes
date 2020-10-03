@@ -1,23 +1,28 @@
 body {
-    background-color: pink; 
+    background-color: #F5EAEA; 
    }
 header {
-   background-color: darkgray;
+   background-color: #CAD0D9;
 } 
 footer {
-    background-color: darkgray;
+    background-color: CAD0D9;
     }   
    h1 {
        font-size: 100px;
-       color: blue;
+       color: #000D7C;
    }
    h2 {
      font-size: 75pxx;  
-     color: blue;
+     color: #000D7C;
     }
 nav li {
 display: inline-block;
 }
 nav ul {
     padding: 0px;
+    }
+nav a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;   
     }
