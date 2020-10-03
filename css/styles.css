@@ -6,6 +6,7 @@ body {
     src: url(https://fonts.adobe.com/fonts/expo-sans);
 }
    h1 {
+
        font-size: 100px;
        color: #000D7C;
    }
@@ -18,7 +19,7 @@ body {
     src: url(https://fonts.adobe.com/fonts/proxima-nova)('Regular');
 }
    p {
-       font-family: "Arial Narrow", 'Franklin Gothic Medium', Arial, sans-serif;
+       font-family: "Proxima Nova", 'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif
 header {
    background-color: #CAD0D9;
 } 
