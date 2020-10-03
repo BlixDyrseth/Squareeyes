@@ -3,7 +3,7 @@ body {
    }
 @font-face {
     font-family: Proxima Nova;
-    src: url(https://fonts.adobe.com/fonts/proxima-nova);
+    src: url(https://fonts.adobe.com/fonts/proxima-nova)('Regular');
 }
    p {
        font-family: "Arial Narrow", 'Franklin Gothic Medium', Arial, sans-serif;
@@ -13,6 +13,10 @@ header {
 footer {
     background-color: #CAD0D9;
     }   
+@font-face {
+    font-family: Expo Sans;
+    src: url(https://fonts.adobe.com/fonts/expo-sans)('Pro Bold');
+}
    h1 {
        font-size: 100px;
        color: #000D7C;
