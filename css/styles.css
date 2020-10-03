@@ -1,11 +1,17 @@
 body {
     background-color: #F5EAEA; 
    }
+@font-face {
+    font-family: Proxima Nova;
+    src: url(https://fonts.adobe.com/fonts/proxima-nova);
+}
+   p {
+       font-family: "Arial Narrow", 'Franklin Gothic Medium', Arial, sans-serif;
 header {
    background-color: #CAD0D9;
 } 
 footer {
-    background-color: CAD0D9;
+    background-color: #CAD0D9;
     }   
    h1 {
        font-size: 100px;
