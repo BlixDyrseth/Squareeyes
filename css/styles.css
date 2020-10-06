@@ -2,13 +2,13 @@ body {
     background-color: #F5EAEA; 
    }
    @font-face {
-    font-family: Expo Sans;
+    font-family: expo-sans-pro;
     src: url(https://fonts.adobe.com/fonts/expo-sans);
 }
    h1 {
-       font-family: "Expo Sans",'Open Sans';
-       font-size: 100px;
-       color: #000D7C;
+     font-family: expo-sans-pro, sans-serif;
+     font-style: bold;
+     font-weight: 200;
    }
    h2 {
      font-family: "Expo Sans",'Open Sans';
