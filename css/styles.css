@@ -18,8 +18,8 @@ body {
      font-size: 75px;  
     }
 @font-face {
-    font-family: Proxima Nova;
-    src: url(https://fonts.adobe.com/fonts/proxima-nova);
+    font-family: proxima-nova-condensed, sans-serif;
+    src: url(https://use.typekit.net/hdw2xvn.css);
 }
    p {
     font-family: proxima-nova-condensed, sans-serif;
