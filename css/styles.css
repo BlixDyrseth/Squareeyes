@@ -10,13 +10,7 @@ body {
      font-style: normal;
      font-weight: 700;
      color:  #000D7C;
-     
-    h1 {
-        font-size: 100px; 
-   }
-   h2 {
-     font-size: 75px;  
-    }
+    }   
 @font-face {
     font-family: proxima-nova-condensed, sans-serif;
     src: url(https://use.typekit.net/hdw2xvn.css);
