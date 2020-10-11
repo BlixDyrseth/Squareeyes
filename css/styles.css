@@ -9,7 +9,7 @@ body {
 .first-picture {
     float: left;
     max-width: 800px;
-    border: 93px;
+    padding: 93px;
 }    
 h1, h2 {
     font-family: expo-sans-pro, sans-serif;
