@@ -1,5 +1,6 @@
 body {
     background-color: #F5EAEA; 
+    margin: 0;
    }
    @font-face {
     font-family: expo-sans-pro;
@@ -51,7 +52,7 @@ header {
 }
 footer {
     background-color: #CAD0D9;
-    margin: 0px;
+    margin: 0;
     }   
 nav li {
 display: inline-block;
