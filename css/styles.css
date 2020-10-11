@@ -37,6 +37,7 @@ header {
     background-color: #000D7C;
     width: 243;
     height: 75;
+    display: inline-block;
 }
 footer {
     background-color: #CAD0D9;
