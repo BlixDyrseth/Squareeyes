@@ -13,6 +13,10 @@ h1, h2 {
    }   
    h1 {
      font-size: 100px;
+     position: absolute;
+     top: 0px;
+     left: 500px;
+     width: 250p;
     }   
     h2 {
         font-size: 75px;
@@ -34,13 +38,16 @@ header {
    height: 100%;
 } 
 .link {
+    @font-face {
+        font-family: arial rounded MT Bold;
+        src: url(arial rounded MT Bold);
+    }
     background-color: #000D7C;
     width: 243px;
     height: 75px;
     display: inline-block;
     text-align: center;
-    border-radius: 10px;
-    margin: 10px auto 10px auto;
+    border-radius: 20px;
 }
 footer {
     background-color: #CAD0D9;
