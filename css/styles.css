@@ -5,18 +5,18 @@ body {
     font-family: expo-sans-pro;
     src: url(https://use.typekit.net/hdw2xvn.css);
 }
-   h1 {
-     font-family: expo-sans-pro, sans-serif;
-     font-style: normal;
-     font-weight: 700;
-     color:  #000D7C;
-     font-size: 100px;
-    }   
-    h2 {
+    h1, h2 {
         font-family: expo-sans-pro, sans-serif;
         font-style: normal;
         font-weight: 700;
         color:  #000D7C;
+       }   
+   h1 {
+
+     font-size: 100px;
+    }   
+    h2 {
+        
         font-size: 75px;
        }   
 @font-face {
