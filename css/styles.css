@@ -18,13 +18,13 @@ h1, h2 {
     color:  #000D7C;
    }   
    h1 {
-     font-size: 7em;
+     font-size: 70px;
      top: 0px;
      left: 500px;
      width: 250p;
     }   
     h2 {
-        font-size: 75px;
+        font-size: 55px;
     }   
 @font-face {
     font-family: proxima-nova-condensed, sans-serif;
