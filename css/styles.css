@@ -11,11 +11,6 @@ body {
     max-width: 800px;
     padding: 93px;
 }    
-.second-picture {
-    float: right;
-    max-width: 500px;
-    padding: 93px;
-}   
 h1, h2 {
     font-family: expo-sans-pro, sans-serif;
     font-style: normal;
