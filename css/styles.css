@@ -5,12 +5,7 @@ body {
    @font-face {
     font-family: expo-sans-pro;
     src: url(https://use.typekit.net/hdw2xvn.css);
-}
-.first-picture {
-    float: left;
-    max-width: 800px;
-    padding: 93px;
-}    
+}  
 h1, h2 {
     font-family: expo-sans-pro, sans-serif;
     font-style: normal;
@@ -37,6 +32,11 @@ h1, h2 {
     font-size: 33px;
     color: #000;
 }
+.first-picture {
+    float: left;
+    max-width: 800px;
+    padding: 93px;
+}  
 header {
    background-color: #CAD0D9;
    width: 100%;
