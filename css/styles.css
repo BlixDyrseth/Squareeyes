@@ -39,11 +39,7 @@ h3 {
     font-size: 33px;
     color: #000;
 }   
-.first-picture {
-    float: left;
-    max-width: 800px;
-    padding: 93px;
-}  
+
 header {
    background-color: #CAD0D9;
    width: 100%;
