@@ -75,6 +75,6 @@ nav a {
 .genres {
     display: none;
     } 
-    #hamburger-menu:checked ~ nav {
+    #hamburger-menu:checked ~ .genres {
         display: block;
     }
