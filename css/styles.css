@@ -72,9 +72,9 @@ nav a {
     text-decoration: none;
     padding: 10px;   
     }
-.genre {
+.genres {
     display: none;
     } 
-    #hamburger-menu:checked ~ .genre {
+    #hamburger-menu:checked ~ nav {
         display: block;
     }
