@@ -72,3 +72,9 @@ nav a {
     text-decoration: none;
     padding: 10px;   
     }
+nav {
+    display: none;
+}
+    #hamburger-menu:checked ~ nav {
+    display: block;
+    }
