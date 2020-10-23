@@ -58,14 +58,14 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 33px;
+    font-size: 25px;
     background-color: #000D7C;
     width: 243px;
     height: 75px;
     display: inline-block;
     text-align: center;
     border-radius: 20px;
-}
+}     
 footer {
     background-color: #CAD0D9;
     margin: 0;
