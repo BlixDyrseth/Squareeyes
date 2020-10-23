@@ -105,9 +105,7 @@ nav a {
         display: block;
     }
 
-header, main, aside, footer {
-        text-align: center;
-    }
+
 header {grid-area: header;}
 main {grid-area: main;}
 aside {grid-area: aside;}
