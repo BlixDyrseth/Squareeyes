@@ -6,7 +6,7 @@ body {
     grid-gap: 1em;
     grid-template-areas: 
     'header header'
-    'main main'
+    'main aside'
     'aside aside'
     'aside aside'
     'footer footer'
