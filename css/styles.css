@@ -96,7 +96,7 @@ nav a {
     }
 .footer {
 display: flex;
-flex-direction: column;
+flex-direction: row;
 }
 .info {
     flex: 1;
