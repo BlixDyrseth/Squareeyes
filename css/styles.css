@@ -6,7 +6,7 @@ body {
     grid-gap: 1em;
     grid-template-areas: 
     'header header'
-    'main aside'
+    'main main'
     'aside aside'
     'aside aside'
     'footer footer'
@@ -104,9 +104,7 @@ nav a {
     }
 
 header, main, aside, footer {
-        background: rgb(214, 129, 129);
         text-align: center;
-        border-radius: 20px;
     }
 header {grid-area: header;}
 main {grid-area: main;}
