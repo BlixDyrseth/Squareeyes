@@ -3,7 +3,7 @@ body {
     margin: 0;
     min-height: 100vh;
     display: grid;
-    grid-gap: 1em;
+    grid-gap: 5em;
     grid-template-areas: 
     'header header'
     'main aside'
