@@ -52,6 +52,11 @@ h3 {
  height: 500px;
  margin: auto;
  position: relative;
+ font-family: proxima-nova-condensed, sans-serif;
+ font-weight: 300;
+ font-style: normal;
+ font-size: 18px;
+ color: #ffffff;
 }   
 input {
     width: 100%;
