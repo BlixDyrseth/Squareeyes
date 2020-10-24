@@ -57,6 +57,7 @@ input {
 }    
 main, aside {
     background: #000D7C;
+    text-align: center;
     border-radius: 20px;
 }
 header {grid-area: header;}
