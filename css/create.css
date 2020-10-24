@@ -16,7 +16,7 @@ h1, h2 {
     font-family: expo-sans-pro, sans-serif;
     font-style: normal;
     font-weight: 700;
-    color:  #000D7C;
+    color:  #ffffff;
    }   
    h1 {
      font-size: 70px;
@@ -45,9 +45,8 @@ h3 {
     font-size: 33px;
     color: #000;
 }   
-header, main, aside {
-    background: rgb(214, 129, 129);
-    text-align: center;
+main, aside {
+    background: 000D7C;
     border-radius: 20px;
 }
 header {grid-area: header;}
