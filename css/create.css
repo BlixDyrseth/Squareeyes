@@ -7,6 +7,7 @@ body {
     grid-template-areas: 
     'header header'
     'main aside'
+    'footer footer'
    }
    @font-face {
     font-family: expo-sans-pro;
@@ -70,6 +71,7 @@ main, aside {
 header {grid-area: header;}
 main {grid-area: main;}
 aside {grid-area: aside;}
+footer {grid-area: footer;}
 
 .boxone {
     background-color:#000D7C;
