@@ -46,9 +46,9 @@ h3 {
     color: #000;
 }   
 .form {
- width: 500px;
- height: 600px;
- margin: auto;
+ width: 400px;
+ height: 500px;
+ margin-right: 5em;
  position: relative;
 }   
 input {
@@ -56,10 +56,16 @@ input {
     height: 25px;
 }    
 main, aside {
-    background: #000D7C;
     text-align: center;
     border-radius: 20px;
 }
 header {grid-area: header;}
 main {grid-area: main;}
 aside {grid-area: aside;}
+
+.boxone {
+    width: 400px;
+    height: 500px;
+    margin-left: 5em;
+    position: relative;
+}    
