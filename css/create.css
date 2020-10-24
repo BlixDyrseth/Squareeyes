@@ -46,6 +46,7 @@ h3 {
     color: #000;
 }   
 .form {
+    background-color:#000D7C;
  width: 400px;
  height: 500px;
  margin-right: 5em;
@@ -64,6 +65,7 @@ main {grid-area: main;}
 aside {grid-area: aside;}
 
 .boxone {
+    background-color:#000D7C;
     width: 400px;
     height: 500px;
     margin-left: 5em;
