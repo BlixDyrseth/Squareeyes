@@ -58,7 +58,6 @@ h3 {
  font-style: normal;
  font-size: 18px;
  color: #ffffff;
- padding-top: 50px; 
 }   
 input {
     width: 100%;
@@ -82,3 +81,15 @@ footer {grid-area: footer;}
     margin: auto;
     position: relative;
 }    
+
+fieldset {
+border: 0 none;
+}        
+
+legend span.accessibility {
+    position: absolute;
+    left: -9999px;
+    width: 100px;
+    height: auto;
+    overflow: hidden;
+}
