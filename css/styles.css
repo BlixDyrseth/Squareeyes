@@ -53,12 +53,12 @@ header {
    width: 100%;
    height: 100%;
 }
-.first-picture {
+.first-picture, .second-picture, .third-picture {
     height: 450px;
     padding: 50px;
     margin: 30px;
 }   
-.homesection:nth-child(2) {
+.homesection:nth-child(2),.homesection:nth-child(3),.homesection:nth-child(6) {
     height: 400px;
     width: 500px;
 }    
