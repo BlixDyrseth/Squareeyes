@@ -125,22 +125,6 @@ nav a {
     #hamburger-menu:checked ~ .genres {
         display: block;
     }
-.footer {
-display: flex;
-flex-direction: row;
-}
-.info {
-    flex: 1;
-}
-.resrc {
-    flex: 1;
-    }
-.company {
-    flex: 1;
-    }
-.follow {
-    flex: 1;
-    }
 
 .login {
     float: right;
@@ -165,3 +149,20 @@ main {
     'homesection-three homesection-four'
     'homesection-five homesection-six'
     }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        }
+        .info {
+            flex: 1;
+        }
+        .resrc {
+            flex: 1;
+            }
+        .company {
+            flex: 1;
+            }
+        .follow {
+            flex: 1;
+            }
