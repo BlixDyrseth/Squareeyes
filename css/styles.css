@@ -58,7 +58,7 @@ header {
     padding: 50px;
     margin: 30px;
 }   
-.welcome {
+.homesection:nth-child(2) {
     height: 400px;
     width: 500px;
 }    
