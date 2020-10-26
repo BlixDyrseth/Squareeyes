@@ -61,8 +61,8 @@ header {
     font-style: normal;
     font-size: 25px;
     background-color: #000D7C;
-    width: 243px;
-    height: 75px;
+    width: 160px;
+    height: 45px;
     display: inline-block;
     text-align: center;
     border-radius: 20px;
@@ -109,4 +109,8 @@ flex-direction: row;
     }
 .follow {
     flex: 1;
+    }
+
+.login {
+    float: right;
     }
