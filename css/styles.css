@@ -4,12 +4,6 @@ body {
     min-height: 100vh;
    }
 
-.logo {
-    width: 135px;
-    height: 37px;
-}  
-
-
 @font-face {
     font-family: expo-sans-pro;
     src: url(https://use.typekit.net/hdw2xvn.css);
