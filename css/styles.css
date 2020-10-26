@@ -61,11 +61,11 @@ header {
     font-style: normal;
     font-size: 25px;
     background-color: #000D7C;
-    width: 160px;
-    height: 45px;
+    width: 200px;
+    height: 60px;
     display: inline-block;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
 }     
 footer {
     background-color: #CAD0D9;
@@ -114,4 +114,6 @@ flex-direction: row;
 .login {
     float: right;
     margin: 10px;
+    height: 150px;
+    width: 74px;
     }
