@@ -5,7 +5,7 @@ body {
    }
 
 .logo {
-    max-width: 65px;
+    min-width: 65px;
     margin-left: 30px;
 }  
 
