@@ -137,6 +137,22 @@ flex-direction: row;
     float: right;
     margin: 10px;
     }
-    header {grid-area: header;}
-    main {grid-area: main;}
-    footer {grid-area: footer;}
+
+header {grid-area: header;}
+main {grid-area: main;}
+.homesection:nth-child(1){grid-area: homesection-one;}
+.homesection:nth-child(2){grid-area: homesection-two;}
+.homesection:nth-child(3){grid-area: homesection-three;}
+.homesection:nth-child(4){grid-area: homesection-four}
+.homesection:nth-child(5){grid-area: homesection-five;}
+.homesection:nth-child(6){grid-area: homesection-six;}
+footer {grid-area: footer;}
+
+main {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+    'homesection-one homesection-two'
+    'homesection-three homesection-four'
+    'homesection-five homesection-six'
+    }
