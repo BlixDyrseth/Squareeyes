@@ -1,6 +1,6 @@
 body {
     background-image: linear-gradient(#F5EAEA, #EDD9D9, #D7A9A9);
-    margin: 0;
+    margin: 0 auto;
     min-height: 100vh;
    }
    @font-face {
