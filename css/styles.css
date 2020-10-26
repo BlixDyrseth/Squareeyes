@@ -54,20 +54,20 @@ header {
    height: 100%;
 }
 .first-picture {
-    height: 450px;
+    min-height: 450px;
     padding: 50px;
     margin: 30px;
 }   
 .second-picture {
-    height: 350px;
+    min-height: 350px;
 }   
 .third-picture {
-    height: 350px;
+    min-height: 350px;
 }   
 
 .homesection:nth-child(2),.homesection:nth-child(3),.homesection:nth-child(6) {
-    height: 400px;
-    width: 500px;
+    min-height: 400px;
+    min-width: 500px;
 }    
 
 .link {
