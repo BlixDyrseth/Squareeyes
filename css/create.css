@@ -107,6 +107,7 @@ legend span.accessibility {
     flex: 1;
     padding: 10px;
     margin: 10px;
+    min-height: 700px;
 } 
 
 .create-creator {
@@ -116,4 +117,5 @@ legend span.accessibility {
     flex: 1;
     padding: 10px;
     margin: 10px;
+    min-height: 700px;
 } 
