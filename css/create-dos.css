@@ -1,0 +1,38 @@
+
+
+
+fieldset {
+    border: 0 none;
+    }        
+    
+    legend span.accessibility {
+        position: absolute;
+        left: -9999px;
+        width: 100px;
+        height: auto;
+        overflow: hidden;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+    
+    
+    .boxone,.form {
+        border-radius: 20px;
+        text-align: center;
+        flex: 1;
+        padding: 30px;
+        margin: 30px;
+        min-height: 500px;
+        max-width: 400px;
+    }
+
+    .form {
+        background-color:#598A8E;
+    }
+    .boxone {
+        background-color:#000D7C;

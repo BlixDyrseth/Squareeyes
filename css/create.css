@@ -59,13 +59,7 @@ h3 {
  font-style: normal;
  font-size: 18px;
  color: #ffffff;
- border-radius: 20px;
- text-align: center;
- flex: 1;
- padding: 30px;
- margin: 30px;
- min-height: 500px;
- max-width: 400px;
+ 
 }   
 input {
     width: 100%;
@@ -102,7 +96,7 @@ legend span.accessibility {
     overflow: hidden;
 }
 
-.container.container {
+.container {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
