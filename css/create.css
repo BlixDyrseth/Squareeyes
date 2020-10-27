@@ -2,6 +2,7 @@ body {
     background:#F5EAEA;
     margin: 0 auto;
     min-height: 100vh;
+    max-width: 1000px;
     display: grid;
     grid-gap: 2em;
     padding-left: 2em;
@@ -120,4 +121,8 @@ background-image: url(../images/background-watcher.jpg);
 
 .create-creator {
     background-image: url(../images/background-creator.jpg);
+} 
+
+footer {
+    position: relative;
 } 
