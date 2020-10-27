@@ -98,6 +98,8 @@ legend span.accessibility {
 .container.container {
     display: flex;
     flex-direction: row;
+    margin: auto;
+    max-width: 900px;
 }
 
 
