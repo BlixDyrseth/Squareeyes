@@ -1,5 +1,10 @@
 
-
+body {
+    background:#F5EAEA;
+    margin: 0 auto;
+    min-height: 100vh;
+    grid-gap: 2em;
+    padding-left: 2em;
 
 fieldset {
     border: 0 none;
