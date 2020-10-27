@@ -94,12 +94,20 @@ legend span.accessibility {
     overflow: hidden;
 }
 
+.container.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .create-watcher {
     background-image: url(../images/background-watcher.jpg);
     border-radius: 20px;
+    text-align: center;
 } 
 
 .create-creator {
     background-image: url(../images/background-creator.jpg);
     border-radius: 20px;
+    text-align: center;
 } 
