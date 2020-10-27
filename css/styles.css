@@ -3,14 +3,14 @@ body {
     margin: 0 auto;
     min-height: 150vh;
     display: grid;
-    grid-gap: 3em;
+    grid-gap: 1em;
     padding-left: 2em;
     padding-right: 2em;
     grid-template-areas: 
     'header header'
     'main main'
+    'main main'
     'footer footer'
-
    }
 
 
