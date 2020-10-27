@@ -96,7 +96,7 @@ legend span.accessibility {
 
 .container.container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 
@@ -104,10 +104,16 @@ legend span.accessibility {
     background-image: url(../images/background-watcher.jpg);
     border-radius: 20px;
     text-align: center;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
 } 
 
 .create-creator {
     background-image: url(../images/background-creator.jpg);
     border-radius: 20px;
     text-align: center;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
 } 
