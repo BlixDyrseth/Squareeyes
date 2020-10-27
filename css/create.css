@@ -93,3 +93,13 @@ legend span.accessibility {
     height: auto;
     overflow: hidden;
 }
+
+.create-watcher {
+    background-image: url(../images/background-watcher.jpg);
+    border-radius: 20px;
+} 
+
+.create-creator {
+    background-image: url(../images/background-creator.jpg);
+    border-radius: 20px;
+} 
