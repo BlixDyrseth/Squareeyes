@@ -2,6 +2,7 @@ body {
     background:#F5EAEA;
     margin: 0 auto;
     min-height: 100vh;
+    max-width: 600px;
     display: grid;
     grid-gap: 2em;
     padding-left: 2em;
