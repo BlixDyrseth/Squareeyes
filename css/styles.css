@@ -59,17 +59,21 @@ header {
 }
 .first-picture {
     max-height: 450px;
+    padding: 30px;
 }   
 .second-picture {
     max-height: 350px;
+    padding: 30px;
 }   
 .third-picture {
     max-height: 350px;
+    padding: 30px;
 }   
 
 .homesection:nth-child(2),.homesection:nth-child(3),.homesection:nth-child(6) {
     max-height: 400px;
     max-width: 500px;
+    padding: 30px;
 }    
 
 .link {

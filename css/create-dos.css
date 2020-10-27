@@ -43,7 +43,3 @@ fieldset {
     .boxone {
         background-color:#000D7C;
     }
-
-    form {
-        flex-direction: column;
-    }
