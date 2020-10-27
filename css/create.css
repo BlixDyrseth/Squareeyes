@@ -1,9 +1,10 @@
 body {
     background:#F5EAEA;
-    margin: 0;
+    margin: 0 auto;
     min-height: 100vh;
     display: grid;
     grid-gap: 2em;
+    padding: 2em;
     grid-template-areas: 
     'header header'
     'main aside'
