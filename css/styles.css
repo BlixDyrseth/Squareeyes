@@ -206,6 +206,9 @@ main {
                 align-self: left;
                 min-width: 250px;
                 }
+                .login{
+                    display: none;
+                    }
             main {
             display: grid;
             grid-gap: 1em;
