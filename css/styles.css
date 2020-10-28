@@ -127,7 +127,7 @@ nav a {
 .login {
     float: right;
     margin: 10px;
-    height: auto;
+    max-height: 50px;
     }
 
 header {grid-area: header;}
