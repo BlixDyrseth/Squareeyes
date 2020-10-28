@@ -53,13 +53,6 @@ header {
    width: 100%;
    height: 100%;
 }
-.header {
-    display: flex;
-    flex-direction: row;
-    }
-    .logo {
-        flex: 1;
-        }
 
 .first-picture {
     max-height: 450px;
@@ -134,7 +127,6 @@ nav a {
 
 .login {
     float: right;
-    flex: 1;
     }
 
 header {grid-area: header;}
