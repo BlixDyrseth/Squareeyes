@@ -179,34 +179,7 @@ main {
                     'main main'
                     'footer footer'
                 } 
-              header {
-                flex: 1;
-            }
-            .homesection:nth-child(1) {
             
-                width: 200px;
-                }
-            .homesection:nth-child(2) {
-                
-                width: 200px;
-                }
-            .homesection:nth-child(3) {
-                
-                width: 200px;
-                }  
-    
-            .homesection:nth-child(4) {
-                
-                width: 200px;
-                }
-            .homesection:nth-child(5) {
-                
-                width: 200px;
-                }
-            .homesection:nth-child(6) {
-              
-                width: 200px;
-                }  
             main {
             display: grid;
             grid-gap: 1em;
