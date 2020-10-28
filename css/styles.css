@@ -188,10 +188,6 @@ main {
                 align-self: left;
                 min-width: 250px;
                 }
-            .login {
-                height: 20px;
-                min-width: 20px;
-                }
             main {
             display: grid;
             grid-gap: 1em;
