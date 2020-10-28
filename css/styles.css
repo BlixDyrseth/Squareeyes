@@ -173,7 +173,6 @@ main {
                 body {
                     background-image: linear-gradient(#F5EAEA, #EDD9D9, #D7A9A9);
                     margin: 0 auto;
-                    min-height: 150vh;
                     display: grid;
                     display: flex;
                 } 
@@ -223,6 +222,22 @@ main {
             font-style: normal;
             font-size: 18px;
         }
+        .footer {
+            display: flex;
+            flex-direction: column;
+            }
+            .info {
+                flex: 1;
+            }
+            .resrc {
+                flex: 1;
+                }
+            .company {
+                flex: 1;
+                }
+            .follow {
+                flex: 1;
+                }
     
     }
           
