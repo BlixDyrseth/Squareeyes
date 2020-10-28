@@ -168,19 +168,10 @@ main {
 
 
 
-            .create-watcher,.create-creator {
-                border-radius: 20px;
-                text-align: center;
-                flex: 1;
-                padding: 30px;
-                margin: 30px;
-                min-height: 500px;
-                max-width: 400px;
-            } 
-
             body {
             display: grid;
             grid-gap: 1em;
+            display: flex;
             grid-template-areas: 
             'header header'
             'main main'
@@ -188,6 +179,15 @@ main {
             'footer footer'
            }
             
+           .create-watcher,.create-creator {
+            border-radius: 20px;
+            text-align: center;
+            flex: 1;
+            padding: 30px;
+            margin: 30px;
+            min-height: 500px;
+            max-width: 400px;
+        } 
             .create-watcher {
             background-image: url(../images/background-watcher.jpg);
             } 
