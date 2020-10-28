@@ -55,7 +55,7 @@ header {
 }
 .header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     }
     .logo {
         flex: auto;
