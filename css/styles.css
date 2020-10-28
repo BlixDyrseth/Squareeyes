@@ -55,18 +55,17 @@ header {
 }
 .first-picture {
     max-height: 450px;
+    position: relative;
 }   
-.second-picture {
+.second-picture,.third-picture {
     max-height: 350px;
-}   
-.third-picture {
-    max-height: 350px;
-
+    position: relative;
 }   
 
 .homesection:nth-child(2),.homesection:nth-child(3),.homesection:nth-child(6) {
     max-height: 400px;
     max-width: 500px;
+    position: relative;
 }    
 
 .link {
