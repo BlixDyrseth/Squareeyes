@@ -172,13 +172,16 @@ main {
                     background-image: linear-gradient(#F5EAEA, #EDD9D9, #D7A9A9);
                     margin: 0 auto;
                     display: grid;
-                    display: flex;
+                    max-width: 550px;
                     grid-template-areas: 
                     'header header'
                     'main main'
                     'main main'
                     'footer footer'
                 } 
+            header {
+                width: 100%;
+                }
             
             main {
             display: grid;
