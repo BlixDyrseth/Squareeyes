@@ -186,7 +186,7 @@ main {
             .homesection:nth-child(3) {
                 flex: 1;
                 }  
-            }
+    
             .homesection:nth-child(4) {
                 flex: 1;
                 }
@@ -196,4 +196,6 @@ main {
             .homesection:nth-child(6) {
                 flex: 1;
                 }  
-          }
+            }
+          
+        
