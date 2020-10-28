@@ -209,6 +209,13 @@ main {
                 .login{
                     display: none;
                     }
+                    #hamburger-menu {
+                        display: none;
+                        } 
+                
+                    #hamburger-menu:checked ~ .genres {
+                        display: block;
+                    }
             main {
             display: grid;
             grid-gap: 1em;
