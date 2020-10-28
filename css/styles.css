@@ -217,6 +217,9 @@ main {
         h3 {
             font-size: 50px;
            }   
+        h2 {
+            text-align: center;
+           } 
         footer {
             display: none
             }
