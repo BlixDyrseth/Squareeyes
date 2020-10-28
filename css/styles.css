@@ -171,11 +171,29 @@ main {
 
             @media only screen and (min-width: 600px) {
             body {
-                display: grid;
-                grid-template-areas: 
-                'header'
-                'main'
-                'main'
-                'footer'
-              }   
+                display: flex;
+                flex-direction: column;
+              }  
+              header {
+                flex: 1;
+            }
+            .homesection:nth-child(1) {
+                flex: 1;
+                }
+            .homesection:nth-child(2) {
+                flex: 1;
+                }
+            .homesection:nth-child(3) {
+                flex: 1;
+                }  
+            }
+            .homesection:nth-child(4) {
+                flex: 1;
+                }
+            .homesection:nth-child(5) {
+                flex: 1;
+                }
+            .homesection:nth-child(6) {
+                flex: 1;
+                }  
           }
