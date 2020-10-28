@@ -194,8 +194,8 @@ main {
             'homesection-five' 
             'homesection-six'
         }
-        .first-picture {
-            max-width: 300px;
+        .first-picture,.second-picture,.third-picture {
+            max-width: 400px;
         }
     
         .link {
