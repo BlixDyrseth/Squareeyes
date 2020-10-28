@@ -164,21 +164,6 @@ main {
             flex: 1;
             }
 
-    /*second page*/
-    .first-paragraph {grid-area: first-paragraph;}
-    .first-paragraph {grid-area: first-paragraph;}
-    .create-watcher {grid-area: create-watcher;}
-    .create-creator {grid-area: create-creator;}
-
-    main {
-        display: grid;
-        grid-gap: 1em;
-        grid-template-areas:
-        'first-paragraph'
-        'second-paragraph'
-        'create-watcher create-creator'
-    
-        }
 
 
             @media only screen and (max-width: 600px) {
