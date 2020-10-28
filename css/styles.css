@@ -169,7 +169,7 @@ main {
                     background-image: linear-gradient(#F5EAEA, #EDD9D9, #D7A9A9);
                     margin: 0 auto;
                     max-width: 400px;
-                    align-items: center;
+                    align-content: center;
                     display: grid;
                     grid-template-areas: 
                     'header header'
@@ -205,17 +205,14 @@ main {
             min-height: 500px;
             position: relative;
         }
-         
     
         .link {
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 300;
             font-style: normal;
             font-size: 18px;
-            margin-left: auto;
-            margin-right: auto;
-
         }
+
         h3 {
             font-size: 50px;
            }   
