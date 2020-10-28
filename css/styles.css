@@ -166,6 +166,8 @@ main {
 
             /*learn more page*/
 
+
+
             .create-watcher,.create-creator {
                 border-radius: 20px;
                 text-align: center;
@@ -175,13 +177,23 @@ main {
                 min-height: 500px;
                 max-width: 400px;
             } 
+
+            body {
+            display: grid;
+            grid-gap: 1em;
+            grid-template-areas: 
+            'header header'
+            'main main'
+            'aside aside'
+            'footer footer'
+           }
             
             .create-watcher {
             background-image: url(../images/background-watcher.jpg);
             } 
             
             .create-creator {
-                background-image: url(../images/background-creator.jpg);
+            background-image: url(../images/background-creator.jpg);
             } 
 
 
