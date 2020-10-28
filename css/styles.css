@@ -168,16 +168,6 @@ main {
 
 
 
-            body {
-            display: grid;
-            grid-gap: 1em;
-            display: flex;
-            grid-template-areas: 
-            'header header'
-            'main main'
-            'aside aside'
-            'footer footer'
-           }
             
            .create-watcher,.create-creator {
             border-radius: 20px;
