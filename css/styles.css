@@ -79,8 +79,8 @@ header {
     font-style: normal;
     font-size: 25px;
     background-color: #000D7C;
-    width: 200px;
-    height: 60px;
+    max-width: 200px;
+    max-height: 60px;
     display: inline-block;
     text-align: center;
     border-radius: 10px;
@@ -170,36 +170,39 @@ main {
             }
 
             @media only screen and (max-width: 600px) {
-            body {
-                display: flex;
-                flex-direction: column;
-              }  
+                body {
+                    background-image: linear-gradient(#F5EAEA, #EDD9D9, #D7A9A9);
+                    margin: 0 auto;
+                    min-height: 150vh;
+                    display: grid;
+                    display: flex;
+                } 
               header {
                 flex: 1;
             }
             .homesection:nth-child(1) {
-                flex: 1;
+            
                 width: 200px;
                 }
             .homesection:nth-child(2) {
-                flex: 1;
+                
                 width: 200px;
                 }
             .homesection:nth-child(3) {
-                flex: 1;
+                
                 width: 200px;
                 }  
     
             .homesection:nth-child(4) {
-                flex: 1;
+                
                 width: 200px;
                 }
             .homesection:nth-child(5) {
-                flex: 1;
+                
                 width: 200px;
                 }
             .homesection:nth-child(6) {
-                flex: 1;
+              
                 width: 200px;
                 }  
             main {
@@ -212,6 +215,13 @@ main {
             'homesection-three' 
             'homesection-five' 
             'homesection-six'
+            
+        }
+        .link {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            font-size: 18px;
         }
     
     }
