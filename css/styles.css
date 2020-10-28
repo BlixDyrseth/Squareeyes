@@ -231,18 +231,6 @@ main {
             display: flex;
             flex-direction: column;
             }
-            .info {
-                flex: 1;
-            }
-            .resrc {
-                flex: 1;
-                }
-            .company {
-                flex: 1;
-                }
-            .follow {
-                flex: 1;
-                }
     
     }
           
