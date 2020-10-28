@@ -133,8 +133,7 @@ nav a {
     }
 
 .login {
-    float: right;
-    margin: 1em;
+
     flex: auto;
     }
 
