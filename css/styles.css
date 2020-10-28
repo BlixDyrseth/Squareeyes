@@ -171,7 +171,6 @@ main {
                     margin: 0 auto;
                     display: grid;
                     max-width: 400px;
-                    align-items: center;
                     padding: 0 auto;
                     grid-template-areas: 
                     'header header'
@@ -188,6 +187,7 @@ main {
                 min-width: 250px;
                 }
             main {
+                align-items: center;
             display: grid;
             grid-gap: 1em;
             grid-template-areas:
