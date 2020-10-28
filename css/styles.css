@@ -3,6 +3,7 @@ body {
     margin: 0 auto;
     min-height: 150vh;
     display: grid;
+    display: flex;
     grid-gap: 1em;
     grid-template-areas: 
     'header header'
