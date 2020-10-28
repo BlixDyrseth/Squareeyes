@@ -175,6 +175,11 @@ main {
                     margin: 0 auto;
                     display: grid;
                     display: flex;
+                    grid-template-areas: 
+                    'header header'
+                    'main main'
+                    'main main'
+                    'footer footer'
                 } 
               header {
                 flex: 1;
