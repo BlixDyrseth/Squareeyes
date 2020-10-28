@@ -126,6 +126,7 @@ nav a {
 
 .login {
     float: right;
+    margin: 1em;
     }
 
 header {grid-area: header;}
