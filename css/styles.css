@@ -55,10 +55,10 @@ header {
 }
 .header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     }
     .logo {
-        flex: auto;
+        flex: 2;
         }
 
 .first-picture {
@@ -134,7 +134,7 @@ nav a {
 
 .login {
 
-    flex: auto;
+    flex: 2;
     }
 
 header {grid-area: header;}
