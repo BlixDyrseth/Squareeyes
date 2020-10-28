@@ -164,6 +164,25 @@ main {
             flex: 1;
             }
 
+            /*learn more page*/
+
+            .create-watcher,.create-creator {
+                border-radius: 20px;
+                text-align: center;
+                flex: 1;
+                padding: 30px;
+                margin: 30px;
+                min-height: 500px;
+                max-width: 400px;
+            } 
+            
+            .create-watcher {
+            background-image: url(../images/background-watcher.jpg);
+            } 
+            
+            .create-creator {
+                background-image: url(../images/background-creator.jpg);
+            } 
 
 
             @media only screen and (max-width: 600px) {
