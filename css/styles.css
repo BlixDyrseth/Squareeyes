@@ -171,6 +171,7 @@ main {
                     margin: 0 auto;
                     display: grid;
                     max-width: 400px;
+                    align-items: center;
                     padding: 0 auto;
                     grid-template-areas: 
                     'header header'
