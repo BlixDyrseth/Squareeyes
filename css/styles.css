@@ -168,3 +168,14 @@ main {
         .follow {
             flex: 1;
             }
+
+            @media only screen and (min-width: 600px) {
+            body {
+                display: grid;
+                grid-template-areas: 
+                'header'
+                'main'
+                'main'
+                'footer'
+              }   
+          }
