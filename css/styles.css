@@ -171,7 +171,6 @@ main {
                     max-width: 400px;
                     align-items: center;
                     display: grid;
-                    padding: 0 auto;
                     grid-template-areas: 
                     'header header'
                     'main main'
@@ -213,6 +212,7 @@ main {
             font-weight: 300;
             font-style: normal;
             font-size: 18px;
+            align-content: center;
         }
         h3 {
             font-size: 50px;
