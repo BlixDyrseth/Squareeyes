@@ -173,6 +173,7 @@ main {
                     margin: 0 auto;
                     display: grid;
                     max-width: 550px;
+                    padding: 0 auto;
                     grid-template-areas: 
                     'header header'
                     'main main'
@@ -182,13 +183,15 @@ main {
             header {
                 display: block;
                 min-height: 75px;
-                padding: none;
-                }
+            }
             .logo {
                 align-self: left;
                 min-width: 250px;
                 }
-            
+            .login {
+                height: 20px;
+                min-width: 20px;
+                }
             main {
             display: grid;
             grid-gap: 1em;
