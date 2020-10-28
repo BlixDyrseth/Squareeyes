@@ -202,7 +202,18 @@ main {
                 flex: 1;
                 max-width: 300px;
                 }  
-
-            }
+            main {
+            display: grid;
+            grid-gap: 1em;
+            grid-template-areas:
+            'homesection-one' 
+            'homesection-two'
+            'homesection-three' 
+            'homesection-four'
+            'homesection-five' 
+            'homesection-six'
+        }
+    
+    }
           
         
