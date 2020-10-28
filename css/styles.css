@@ -74,7 +74,7 @@ header {
     font-style: normal;
     font-size: 25px;
     background-color: #000D7C;
-    max-width: 200px;
+    min-width: 200px;
     max-height: 60px;
     display: inline-block;
     text-align: center;
