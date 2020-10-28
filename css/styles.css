@@ -179,28 +179,28 @@ main {
             }
             .homesection:nth-child(1) {
                 flex: 1;
-                max-width: 300px;
+                width: 200px;
                 }
             .homesection:nth-child(2) {
                 flex: 1;
-                max-width: 300px;
+                width: 200px;
                 }
             .homesection:nth-child(3) {
                 flex: 1;
-                max-width: 300px;
+                width: 200px;
                 }  
     
             .homesection:nth-child(4) {
                 flex: 1;
-                max-width: 300px;
+                width: 200px;
                 }
             .homesection:nth-child(5) {
                 flex: 1;
-                max-width: 300px;
+                width: 200px;
                 }
             .homesection:nth-child(6) {
                 flex: 1;
-                max-width: 300px;
+                width: 200px;
                 }  
             main {
             display: grid;
@@ -208,8 +208,8 @@ main {
             grid-template-areas:
             'homesection-one' 
             'homesection-two'
-            'homesection-three' 
             'homesection-four'
+            'homesection-three' 
             'homesection-five' 
             'homesection-six'
         }
