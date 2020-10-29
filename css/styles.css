@@ -220,13 +220,14 @@ main {
     .watchlist {
         display: block;
         float: right;
+        align-content: center;
         min-width: 300px;
         background-color: #598A8E;
         border-radius: 20px;
     } 
 
     .thumbnail {
-        max-width: 100px;
+        max-width: 150px;
     } 
 
 
