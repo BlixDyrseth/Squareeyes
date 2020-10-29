@@ -140,6 +140,7 @@ main {grid-area: main;}
 .homesection:nth-child(4){grid-area: homesection-four}
 .homesection:nth-child(5){grid-area: homesection-five;}
 .homesection:nth-child(6){grid-area: homesection-six;}
+aside {grid-area: aside;}
 footer {grid-area: footer;}
 
 main {
@@ -180,6 +181,7 @@ main {
             } 
 
             .watchlist {
+                display: block;
                 max-width: 300px;
                 background-color: #598A8E;
                 border-radius: 20px;
