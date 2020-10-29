@@ -233,7 +233,6 @@ main {
 #accountpage {
     background: #F5EAEA;
     display: grid;
-    display: flex;
     grid-gap: 1em;
     grid-template-areas: 
     'header header'
@@ -264,10 +263,8 @@ main {
 .thumbnail {
     max-width: 150px;
 } 
-.explore {
-    flex: 1;
-    align-content: center;
-} 
+
+
 
 
             @media only screen and (max-width: 600px) {
