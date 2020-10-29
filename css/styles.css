@@ -143,6 +143,8 @@ main {grid-area: main;}
 .homesection:nth-child(4){grid-area: homesection-four}
 .homesection:nth-child(5){grid-area: homesection-five;}
 .homesection:nth-child(6){grid-area: homesection-six;}
+.create-creator {grid-area: create-creator;}
+.create-watcher {grid-area: create-watcher;}
 aside {grid-area: aside;}
 footer {grid-area: footer;}
 
@@ -194,7 +196,23 @@ main {
 
             /*learn more page*/
 
+#learnmore {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: 
+    'header header'
+    'main main'
+    'aside aside'
+    'footer footer'
+   }
 
+#mainlearnmore {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+    'first-paragraph'
+    'second-paragraph'
+    }
 
             
            .create-watcher,.create-creator {
