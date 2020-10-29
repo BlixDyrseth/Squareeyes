@@ -244,6 +244,7 @@ main {
         /*account page page*/
 
 #accountpage {
+    background: #F5EAEA;
     display: grid;
     grid-gap: 1em;
     grid-template-areas: 
