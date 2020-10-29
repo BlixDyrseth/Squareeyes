@@ -219,7 +219,7 @@ main {
     .watchlist {
         display: block;
         float: right;
-        max-width: 300px;
+        min-width: 300px;
         background-color: #598A8E;
         border-radius: 20px;
     } 
