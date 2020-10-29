@@ -218,10 +218,8 @@ main {
     
 
 #aside-learnmore {
-    display: grid;
+    display: flex;
     grid-gap: 1em;
-    grid-template-rows:
-    'create-watcher create-creator'
     }
 
 
@@ -233,6 +231,8 @@ main {
             margin: 30px;
             min-height: 500px;
             max-width: 400px;
+            flex-direction: row;
+            flex: 1;
         } 
             .create-watcher {
             background-image: url(../images/background-watcher.jpg);
