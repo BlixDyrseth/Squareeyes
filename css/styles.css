@@ -190,6 +190,7 @@ main {
             .intro {
                 display: inline-block;
                 background-color: teal;
+                height: 100px;
             } 
 
             /*learn more page*/
