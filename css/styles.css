@@ -241,6 +241,17 @@ main {
             .create-creator {
             background-image: url(../images/background-creator.jpg);
             } 
+        /*account page page*/
+
+#accountpage {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: 
+    'header header'
+    'main aside'
+    'main aside'
+    'footer footer'
+   }
 
 
             @media only screen and (max-width: 600px) {
