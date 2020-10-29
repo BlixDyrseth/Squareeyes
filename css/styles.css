@@ -189,6 +189,7 @@ main {
             } 
             .intro {
                 display: inline-block;
+                background-color: teal;
             } 
 
             /*learn more page*/
