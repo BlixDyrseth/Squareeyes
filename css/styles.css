@@ -49,7 +49,7 @@ h3 {
     color: #000;
 }   
 
-header {
+.nav {
    background-color: #CAD0D9;
    width: 100%;
    height: 90px;
@@ -69,6 +69,8 @@ header {
 
 .profil {
     flex: 1;
+    display: block;
+    border-radius: 50px;
     background-color: teal;
   }
 
