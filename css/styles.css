@@ -220,7 +220,7 @@ main {
 #aside-learnmore {
     display: grid;
     grid-gap: 1em;
-    grid-template-rows;:
+    grid-template-rows:
     'create-watcher create-creator'
     }
 
