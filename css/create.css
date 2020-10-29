@@ -134,7 +134,7 @@ background-image: url(../images/background-watcher.jpg);
 
     .create-watcher,.create-creator {
         border-radius: 20px;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
         flex: 1;
         padding: 30px;
