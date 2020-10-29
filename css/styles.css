@@ -252,6 +252,7 @@ main {
 
 .watchlist {
     display: block;
+    display: flex;
     float: right;
     align-content: center;
     min-width: 300px;
