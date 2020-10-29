@@ -175,6 +175,9 @@ main {
             .profile-picture {
                 border-radius: 50%;
             } 
+            .enkel-logo {
+                max-width: 40px;
+            } 
             /*learn more page*/
 
 
