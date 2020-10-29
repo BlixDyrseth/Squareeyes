@@ -187,6 +187,9 @@ main {
                 background-color: #598A8E;
                 border-radius: 20px;
             } 
+            .intro {
+                display: inline-block;
+            } 
 
             /*learn more page*/
 
