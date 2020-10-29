@@ -129,19 +129,17 @@ background-image: url(../images/background-watcher.jpg);
         margin: 0 auto;
         max-width: 400px;
         align-content: center;
-        display: grid;
-        grid-template-areas: 
-        'header header'
-        'main main'
-        'aside aside'
-        'footer footer'
+        display: flex;
     } 
+
     .create-watcher,.create-creator {
         border-radius: 20px;
+        flex-direction: column;
         text-align: center;
         flex: 1;
         padding: 30px;
-        margin: 30px;
+        margin: 10px;
         max-height: 200px;
         max-width: 400px;
     } 
+}
