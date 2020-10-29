@@ -250,6 +250,14 @@ main {
     max-width: 40px;
 } 
 
+.intro {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-items: center; 
+} 
+
 .watchlist {
     display: block;
     display: flex;
