@@ -255,7 +255,7 @@ main {
     display: flex;
     flex-direction: column;
     float: right;
-    align-content: center;
+    align-items: center;
     min-width: 300px;
     background-color: #598A8E;
     border-radius: 20px;
