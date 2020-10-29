@@ -207,12 +207,23 @@ main {
    }
 
 #mainlearnmore {
+    max-width: 600px;
+    margin-left: 3em;
     display: grid;
     grid-gap: 1em;
     grid-template-areas:
     'first-paragraph'
     'second-paragraph'
     }
+    
+
+#aside-learnmore {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+    'create-watcher create-creator'
+    }
+
 
             
            .create-watcher,.create-creator {
