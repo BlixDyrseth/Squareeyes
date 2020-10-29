@@ -56,7 +56,6 @@ header {
     flex-direction: row;
  }
 
-
 .first-picture {
     max-height: 450px;
     position: relative;
@@ -83,7 +82,7 @@ header {
     display: inline-block;
     text-align: center;
     border-radius: 10px;
-    padding: 1em;
+    padding: 8px;
 }     
 a:link {
     font-family: Arial, Helvetica, sans-serif;
