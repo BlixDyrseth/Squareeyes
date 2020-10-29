@@ -2,10 +2,11 @@ body {
     background-image: linear-gradient(#F5EAEA, #EDD9D9, #D7A9A9);
     margin: 0 auto;
     min-height: 150vh;
-    display: grid;
-    grid-gap: 1em;
+
 }
 #index {
+    display: grid;
+    grid-gap: 1em;
     grid-template-areas: 
     'header header'
     'main main'
