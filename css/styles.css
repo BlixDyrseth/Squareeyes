@@ -178,6 +178,13 @@ main {
             .enkel-logo {
                 max-width: 40px;
             } 
+
+            .watchlist {
+                max-width: 300px;
+                background-color: #598A8E;
+                border-radius: 20px;
+            } 
+
             /*learn more page*/
 
 
