@@ -172,6 +172,9 @@ main {
                 color: #000D7C;
             } 
 
+            .profile-picture {
+                border-radius: 50px;
+            } 
             /*learn more page*/
 
 
