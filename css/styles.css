@@ -255,7 +255,8 @@ main {
     display: flex;
     flex-direction: column;
     float: right;
-    align-items: center; 
+    align-items: center;
+    background-color: #D7A9A9; 
 } 
 
 .watchlist {
