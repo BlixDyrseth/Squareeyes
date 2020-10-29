@@ -122,3 +122,26 @@ background-image: url(../images/background-watcher.jpg);
 .create-creator {
     background-image: url(../images/background-creator.jpg);
 } 
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: linear-gradient(#F5EAEA, #EDD9D9, #D7A9A9);
+        margin: 0 auto;
+        max-width: 400px;
+        align-content: center;
+        display: grid;
+        grid-template-areas: 
+        'header header'
+        'main main'
+        'aside aside'
+        'footer footer'
+    } 
+    .create-watcher,.create-creator {
+        border-radius: 20px;
+        text-align: center;
+        flex: 1;
+        padding: 30px;
+        margin: 30px;
+        max-height: 200px;
+        max-width: 400px;
+    } 
