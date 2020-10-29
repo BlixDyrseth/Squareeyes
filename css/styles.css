@@ -178,20 +178,7 @@ main {
                 color: #000D7C;
             } 
 
-            .profile-picture {
-                border-radius: 50%;
-            } 
-            .enkel-logo {
-                max-width: 40px;
-            } 
 
-            .watchlist {
-                display: block;
-                float: right;
-                max-width: 300px;
-                background-color: #598A8E;
-                border-radius: 20px;
-            } 
 
 
             /*learn more page*/
@@ -221,6 +208,21 @@ main {
     display: flex;
     grid-gap: 1em;
     }
+
+    .profile-picture {
+        border-radius: 50%;
+    } 
+    .enkel-logo {
+        max-width: 40px;
+    } 
+
+    .watchlist {
+        display: block;
+        float: right;
+        max-width: 200px;
+        background-color: #598A8E;
+        border-radius: 20px;
+    } 
 
 
             
