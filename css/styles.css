@@ -258,6 +258,7 @@ main {
     align-items: center; 
 } 
 
+
 .explore {
     margin: 3em;
 } 
@@ -276,6 +277,20 @@ main {
 
 .thumbnail {
     max-width: 150px;
+} 
+
+.following {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3em 3em auto auto;
+} 
+
+.small-thumbnails {
+    border-radius: 50%;
+    max-width: 100px;
+    margin: 1em;
 } 
 
 
