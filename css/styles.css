@@ -59,16 +59,19 @@ header {
 
 .logo {
    flex: 1;
+   background-color: teal;
  }
 
 .search {
     flex: 1;
+    background-color: teal;
   } 
 
 .profil {
     flex: 1;
+    background-color: teal;
   }
-  
+
 .first-picture {
     max-height: 450px;
     position: relative;
