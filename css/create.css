@@ -123,7 +123,7 @@ background-image: url(../images/background-watcher.jpg);
     background-image: url(../images/background-creator.jpg);
 } 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
     body {
         background-image: linear-gradient(#F5EAEA, #EDD9D9, #D7A9A9);
         margin: 0 auto;
