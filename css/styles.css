@@ -212,6 +212,7 @@ main {
     .profile-picture {
         border-radius: 50%;
         max-width: 300px;
+        margin: 3em;
     } 
     .enkel-logo {
         max-width: 40px;
