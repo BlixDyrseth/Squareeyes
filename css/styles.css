@@ -209,29 +209,6 @@ main {
     grid-gap: 1em;
     }
 
-    .profile-picture {
-        border-radius: 50%;
-        max-width: 300px;
-        margin: 3em;
-    } 
-    .enkel-logo {
-        max-width: 40px;
-    } 
-
-    .watchlist {
-        display: block;
-        float: right;
-        align-content: center;
-        min-width: 300px;
-        background-color: #598A8E;
-        border-radius: 20px;
-        margin-right: 3em;
-    } 
-
-    .thumbnail {
-        max-width: 150px;
-    } 
-
 
             
            .create-watcher,.create-creator {
@@ -256,6 +233,7 @@ main {
 #accountpage {
     background: #F5EAEA;
     display: grid;
+    display: flex;
     grid-gap: 1em;
     grid-template-areas: 
     'header header'
@@ -263,6 +241,33 @@ main {
     'main aside'
     'footer footer'
    }
+
+   .profile-picture {
+    border-radius: 50%;
+    max-width: 300px;
+    margin: 3em;
+} 
+.enkel-logo {
+    max-width: 40px;
+} 
+
+.watchlist {
+    display: block;
+    float: right;
+    align-content: center;
+    min-width: 300px;
+    background-color: #598A8E;
+    border-radius: 20px;
+    margin-right: 3em;
+} 
+
+.thumbnail {
+    max-width: 150px;
+} 
+.explore {
+    flex: 1;
+    align-content: center;
+} 
 
 
             @media only screen and (max-width: 600px) {
