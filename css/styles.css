@@ -259,7 +259,7 @@ main {
     min-width: 300px;
     background-color: #598A8E;
     border-radius: 20px;
-    margin-right: 3em;
+    margin: 3em 3em auto auto;
 } 
 
 .thumbnail {
