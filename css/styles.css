@@ -241,11 +241,15 @@ main {
     'footer footer'
    }
 
-#h2account {
+.icon-info {
 font-family: proxima-nova-condensed, sans-serif;
-font-weight: 400;
+font-weight: 600;
 font-style: normal;
 font-size: 25px;
+display: flex;
+flex-direction: column;
+float: right;
+align-items: center;
 }
 
    .profile-picture {
