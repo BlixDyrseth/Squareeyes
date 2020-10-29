@@ -9,6 +9,7 @@ body {
     'main main'
     'main main'
     'footer footer'
+    
    }
 
 @font-face {
@@ -28,6 +29,7 @@ h1, h2 {
     h2 {
         font-size: 55px;
     }   
+
 @font-face {
     font-family: proxima-nova-condensed, sans-serif;
     src: url(https://use.typekit.net/hdw2xvn.css);
