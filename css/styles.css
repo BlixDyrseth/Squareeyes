@@ -4,6 +4,8 @@ body {
     min-height: 150vh;
     display: grid;
     grid-gap: 1em;
+}
+#index {
     grid-template-areas: 
     'header header'
     'main main'
@@ -187,11 +189,7 @@ main {
                 background-color: #598A8E;
                 border-radius: 20px;
             } 
-            .intro {
-                display: inline-block;
-                background-color: teal;
-                height: 100px;
-            } 
+
 
             /*learn more page*/
 
