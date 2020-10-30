@@ -262,10 +262,7 @@ text-align: center;
 }
 
 .follow {
-    display: flex;
-    flex-direction: column;
-    float: right;
-    align-items: center;
+    margin-left: 40px;
     }
 
    .profile-picture {
