@@ -328,6 +328,20 @@ align-items: center;
                 'main aside'
                 'footer footer'
                }        
+.picture-block {
+    padding: 30px;
+    margin: 30px;
+    max-width: 500px;
+
+} 
+
+.text-block {
+    text-align: left;
+    padding: 30px;
+    margin: 30px;
+    max-width: 500px;
+
+}    
 
 
 
