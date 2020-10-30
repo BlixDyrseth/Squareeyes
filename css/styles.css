@@ -309,12 +309,25 @@ align-items: center;
     } 
 
     #hamburger-menu {
-        float: left;
+        display: none;
         } 
 
     #hamburger-menu:checked ~ .genres {
         display: block;
     }
+
+            /*search page page*/
+    
+            #filmpage {
+        
+                display: grid;
+                grid-gap: 1em;
+                grid-template-areas: 
+                'header header'
+                'main aside'
+                'main aside'
+                'footer footer'
+               }        
 
 
 
