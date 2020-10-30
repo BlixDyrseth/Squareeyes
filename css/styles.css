@@ -261,6 +261,13 @@ align-items: center;
 text-align: center;
 }
 
+.follow {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-items: center;
+    }
+
    .profile-picture {
     border-radius: 50%;
     max-width: 350px;
