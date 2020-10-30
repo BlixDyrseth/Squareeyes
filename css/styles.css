@@ -260,6 +260,8 @@ align-items: center;
     text-align: center;
     }
 
+
+
    .profile-picture {
     border-radius: 50%;
     max-width: 350px;
@@ -302,7 +304,6 @@ align-items: center;
     display: block;
     display: flex;
     flex-direction: row;
-    align-items: center;
     margin: 3em 3em auto auto;
 } 
 
