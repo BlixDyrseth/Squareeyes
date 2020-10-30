@@ -118,17 +118,6 @@ nav a {
     padding: 10px;   
     }
 
-.genres {
-    display: none;
-    } 
-
-    #hamburger-menu {
-        display: none;
-        } 
-
-    #hamburger-menu:checked ~ .genres {
-        display: block;
-    }
 
 .login {
     float: right;
@@ -313,6 +302,19 @@ align-items: center;
     margin: 1em;
 } 
 
+        /*search page page*/
+
+.genres {
+    display: none;
+    } 
+
+    #hamburger-menu {
+        float: left;
+        } 
+
+    #hamburger-menu:checked ~ .genres {
+        display: block;
+    }
 
 
 
