@@ -303,7 +303,7 @@ align-items: center;
     display: block;
     display: flex;
     flex-direction: row;
-    align-content: center;
+    vertical-align: middle;
     margin: 3em 3em auto auto;
 } 
 
