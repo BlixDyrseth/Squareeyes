@@ -363,6 +363,7 @@ align-items: center;
             #mainpp {
             display: grid;
             display: flex;
+            flex-direction: column;
             grid-gap: 1em;
             align-content: ;
             grid-template-areas:
