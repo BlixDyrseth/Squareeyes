@@ -348,9 +348,9 @@ align-items: center;
             #purchasepage {
                 background-image: linear-gradient(#F5EAEA);
                 margin: 0 auto;
-                max-width: 800px;
-                align-content: center;
                 display: flex;
+                text-align: center;
+                align-items: center;
             } 
 
 
