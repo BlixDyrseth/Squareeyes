@@ -349,7 +349,9 @@ align-items: center;
                 background-image: linear-gradient(#F5EAEA);
                 margin: 0 auto;
                 display: flex;
-                text-align: center;
+            } 
+
+            #mainpp {
                 align-items: center;
             } 
 
