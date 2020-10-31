@@ -366,11 +366,7 @@ align-items: center;
             flex-direction: column;
             grid-gap: 1em;
             align-content: center;
-            grid-template-areas:
-            'pp-one' 
-            'pp-two'
-            'pp-three' 
-            'pp-four'
+        
             } 
 
             .pp-three {
