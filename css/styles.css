@@ -340,9 +340,11 @@ align-items: center;
     display: flex;
     flex-direction: row;
     min-width: 500px;
-    padding: 5px;
 } 
- 
+
+.fp {
+    padding: 8px;
+} 
 
 .text-block {
     text-align: left;
