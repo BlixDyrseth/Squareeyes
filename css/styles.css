@@ -134,6 +134,10 @@ main {grid-area: main;}
 .homesection:nth-child(6){grid-area: homesection-six;}
 .create-creator {grid-area: create-creator;}
 .create-watcher {grid-area: create-watcher;}
+.pp:nth-child(1) {grid-area: pp-one;}
+.pp:nth-child(2) {grid-area: pp-two;}
+.pp:nth-child(3) {grid-area: pp-three;}
+.pp:nth-child(4) {grid-area: pp-four;}
 aside {grid-area: aside;}
 footer {grid-area: footer;}
 
@@ -357,7 +361,15 @@ align-items: center;
             } 
 
             #mainpp {
-                align-items: center;
+            display: grid;
+            display: flex;
+            grid-gap: 1em;
+            align-content: ;
+            grid-template-areas:
+            'pp-one' 
+            'pp-two'
+            'pp-three' 
+            'pp-four'
             } 
 
 
