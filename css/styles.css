@@ -134,10 +134,6 @@ main {grid-area: main;}
 .homesection:nth-child(6){grid-area: homesection-six;}
 .create-creator {grid-area: create-creator;}
 .create-watcher {grid-area: create-watcher;}
-.pp:nth-child(1) {grid-area: pp-one;}
-.pp:nth-child(2) {grid-area: pp-two;}
-.pp:nth-child(3) {grid-area: pp-three;}
-.pp:nth-child(4) {grid-area: pp-four;}
 aside {grid-area: aside;}
 footer {grid-area: footer;}
 
@@ -369,7 +365,7 @@ align-items: center;
         
             } 
 
-            .pp-three {
+             pp-pic{
                 max-width: 300px;
                 position: relative;
             }  
