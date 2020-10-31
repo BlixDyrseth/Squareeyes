@@ -339,7 +339,7 @@ align-items: center;
     display: inline-flex;
     display: flex;
     flex-direction: row;
-    max-width: 500px;
+    min-width: 500px;
 } 
  
 
