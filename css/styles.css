@@ -316,7 +316,7 @@ align-items: center;
         display: block;
     }
 
-            /*search page page*/
+            /*film page*/
     
             #filmpage {
         
@@ -334,6 +334,14 @@ align-items: center;
     max-width: 500px;
 
 } 
+
+.film-info {
+    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+} 
+ 
 
 .text-block {
     text-align: left;
