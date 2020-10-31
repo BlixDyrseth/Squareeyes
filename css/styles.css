@@ -346,9 +346,14 @@ align-items: center;
             /*purchase page*/
 
             #purchasepage {
-                background-image: linear-gradient(#F5EAEA);
+                background: (#F5EAEA);
                 margin: 0 auto;
                 display: flex;
+                display: grid;
+                grid-template-areas: 
+                'header header'
+                'main main'
+                'main main'
             } 
 
             #mainpp {
