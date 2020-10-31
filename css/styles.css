@@ -365,13 +365,18 @@ align-items: center;
             display: flex;
             flex-direction: column;
             grid-gap: 1em;
-            align-content: ;
+            align-content: center;
             grid-template-areas:
             'pp-one' 
             'pp-two'
             'pp-three' 
             'pp-four'
             } 
+
+            .pp-three {
+                max-height: 350px;
+                position: relative;
+            }  
 
 
 
