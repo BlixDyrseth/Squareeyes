@@ -160,7 +160,7 @@ footer {grid-area: footer;}
 
    .login-box {
     display: block;
-    display: none;
+    background-color: #598A8E;
    }
 
    main {
