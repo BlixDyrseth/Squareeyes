@@ -161,8 +161,8 @@ footer {grid-area: footer;}
    .login-box {
     display: block;
     background-color: #598A8E;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
     margin: auto;
    }
 
@@ -179,6 +179,13 @@ footer {grid-area: footer;}
         height: auto;
         overflow: hidden;
     }
+
+    input {
+        width: 100%;
+        height: 30px;
+        border-radius: 10px;
+        margin-bottom: 1em;
+    } 
 
    main {
     display: grid;
