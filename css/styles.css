@@ -742,6 +742,9 @@ align-items: center;
     max-width: auto;
     }
 
+    h3 {
+        font-size: 20px;
+        }
 
     .create-watcher,.create-creator {
         border-radius: 20px;
