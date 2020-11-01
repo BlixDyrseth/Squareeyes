@@ -896,5 +896,9 @@ align-items: center;
     flex: 1;
 } 
 
+.film {
+    flex-wrap: wrap;
+}
+
 }
         
