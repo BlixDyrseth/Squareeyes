@@ -610,6 +610,10 @@ align-items: center;
             background: (#F5EAEA);
             margin: 0 auto;
             display: grid;
+            grid-template-areas: 
+            'header header'
+            'main main'
+            'main main'
         }   
         
         .form {
