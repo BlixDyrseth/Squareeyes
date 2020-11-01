@@ -262,6 +262,41 @@ footer {grid-area: footer;}
     grid-gap: 1em;
     }
 
+    #choose-header {
+        color: #EDD9D9;
+        }
+
+    .white-link {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 25px;
+        background-color: #ffffff;
+        max-width: 200px;
+        max-height: 60px;
+        display: inline-block;
+        text-align: center;
+        border-radius: 10px;
+        padding: 20px;  
+        }
+
+        a-white-link {
+            font-family: proxima-nova-condensed, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 20px;
+            color: #000;
+        }
+
+        a-white-link:visited {
+            font-family: proxima-nova-condensed, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 20px;
+            color: #000;
+            text-decoration: none;
+        }
+
 
             
            .create-watcher,.create-creator {
