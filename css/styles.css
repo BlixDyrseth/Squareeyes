@@ -360,7 +360,12 @@ align-items: center;
     text-align: left;
 } 
 
-#h2-filmpage
+#h2-filmpage {
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: #000;
+} 
 
 .picture-block {
     padding: 30px;
