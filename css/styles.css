@@ -616,9 +616,18 @@ align-items: center;
             'main main'
         }   
         
+        #main-checkout {
+            display: flex;
+            align-content: center;
+            
+          } 
+
+
         .form {
           display: block;
           background-color: #E7E8E8;
+          margin-left: auto;
+          border-radius: 10px;
         } 
 
             /*purchase page*/
