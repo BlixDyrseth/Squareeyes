@@ -896,7 +896,7 @@ align-items: center;
     flex: 1;
 } 
 
-#searchpage {
+#main-search {
     margin-left: auto;
     display: flex;
     grid-gap: 1em;
