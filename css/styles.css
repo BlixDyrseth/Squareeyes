@@ -333,54 +333,13 @@ align-items: center;
         color: #000D7C;
     } 
 
-    .featured {
+    .featured,.action,.romance,.action,.doucmentary, .thriller,.horror {
         display: inline-block;
         display: flex;
         flex-direction: row;
         align-items: center;
     } 
 
-    .action {
-        display: inline-block;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    } 
-
-    .romance {
-        display: inline-block;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    } 
-    
-    .action {
-        display: inline-block;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    } 
-
-    .Doucmentary {
-        display: inline-block;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    } 
-
-    .thriller {
-        display: inline-block;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .horror {
-        display: inline-block;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
 
             /*film page*/
     
