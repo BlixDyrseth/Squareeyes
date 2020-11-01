@@ -356,8 +356,9 @@ align-items: center;
                } 
                
 #h1-filmage {
-    font-size: 50px;
+    font-size: 40px;
     text-align: left;
+    padding: none;
 } 
 
 #h2-filmpage {
