@@ -422,7 +422,7 @@ align-items: center;
         text-align: left;
     } 
 
-    .featured,.romance,.action,.doucmentary,.thriller,.horror {
+    .featured,.romance,.action,.documentary,.thriller,.horror {
         display: inline-block;
         display: flex;
         flex-direction: row;
