@@ -896,6 +896,13 @@ align-items: center;
     flex: 1;
 } 
 
+#searchpage {
+    margin-left: auto;
+    display: flex;
+    grid-gap: 1em;
+    max-width: 350px;
+    }
+
 .film {
     flex-wrap: wrap;
 }
