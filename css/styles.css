@@ -750,8 +750,6 @@ align-items: center;
         flex-direction: column;
     } 
     .create-watcher,.create-creator {
-        border-radius: 20px;
-        text-align: center;
         padding: 30px;
         min-height: auto;
         max-width: 350px;
