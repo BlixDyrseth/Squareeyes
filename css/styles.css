@@ -347,7 +347,7 @@ align-items: center;
         max-width: 500px;
     } 
 
-    .john,.kim,.lydia,.brian {
+    .pop-block {
         display: flex;
         display: block;
         background: #598A8E;
@@ -368,6 +368,21 @@ align-items: center;
         display: inline-flex;
         flex-direction: row;
     } 
+
+    .new-block {
+        display: flex;
+        max-width: 250px;
+        flex-direction: column;
+        padding: 1em;
+        margin: 1em;
+    } 
+
+    .new-uploads {
+        display: inline-flex;
+        flex-direction: row;
+    } 
+
+
 
 
         /*search page page*/
@@ -406,7 +421,15 @@ align-items: center;
         display: inline-block;
         display: flex;
         flex-direction: row;
-        align-items: center;
+    } 
+
+    .featured-block,.action-block,.rom-block,.doc-block,.thriller-block,.horror-block {
+        display: flex;
+        display: block;
+        flex-direction: column;
+        align-items: left;
+        padding: 1em;
+        margin: 1em;
     } 
 
 
