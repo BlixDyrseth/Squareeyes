@@ -606,6 +606,7 @@ align-items: center;
         .first-picture,.second-picture,.third-picture {
             max-width: 400px;
             position: relative;
+            padding: 2em none none none;
         }
 
         .homesection:nth-child(2),.homesection:nth-child(3),.homesection:nth-child(6) {
