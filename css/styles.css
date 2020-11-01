@@ -735,7 +735,6 @@ align-items: center;
    }
 
 #mainlearnmore {
-    max-width: 800px;
     margin-left: auto;
     display: grid;
     grid-gap: 1em;
