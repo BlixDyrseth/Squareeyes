@@ -715,4 +715,28 @@ align-items: center;
         max-height: 200px;
         max-width: 400px;
     } 
+
+
+               /*learn more page mobile*/
+
+#learnmore {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: 
+    'header'
+    'main'
+    'aside'
+    'foote'
+   }
+
+#mainlearnmore {
+    max-width: 800px;
+    margin-left: auto;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas:
+    'first-paragraph'
+    'second-paragraph'
+    }
+  
         
