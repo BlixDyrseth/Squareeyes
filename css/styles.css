@@ -477,6 +477,9 @@ align-items: center;
         display: flex;
         flex-direction: column;
         background-color: #CAD0D9;
+        max-width: 300px;
+        font-size: 20px;
+        max-height: 500px;
         
     }
 
