@@ -6,6 +6,44 @@ body {
     grid-gap: 2em;
 } 
 
+@font-face {
+    font-family: expo-sans-pro;
+    src: url(https://use.typekit.net/hdw2xvn.css);
+}  
+h1, h2 {
+    font-family: expo-sans-pro, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color:  #ffffff;
+   }   
+   h1 {
+     font-size: 70px;
+     top: 0px;
+     left: 500px;
+     width: 250p;
+    }   
+    h2 {
+        font-size: 55px;
+    }   
+@font-face {
+    font-family: proxima-nova-condensed, sans-serif;
+    src: url(https://use.typekit.net/hdw2xvn.css);
+}
+   ul {
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: #ffffff;
+}
+h3 {
+    font-family: proxima-nova-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 33px;
+    color: #000;
+}   
+
 fieldset {
     border: 0 none;
     }        
