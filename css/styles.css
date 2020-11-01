@@ -465,6 +465,8 @@ align-items: center;
 } 
 .genres {
     display: none;
+    display: block;
+    
     } 
 
     #hamburger-menu {
