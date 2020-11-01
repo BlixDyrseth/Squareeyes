@@ -167,10 +167,12 @@ footer {grid-area: footer;}
     .first-picture {
         max-height: 450px;
         position: relative;
+        margin: 2em;
     }   
     .second-picture,.third-picture {
         max-height: 350px;
         position: relative;
+        margin: 2em;
     }   
     
     .homesection:nth-child(2),.homesection:nth-child(3),.homesection:nth-child(6) {
