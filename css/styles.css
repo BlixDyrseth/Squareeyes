@@ -137,6 +137,8 @@ main {grid-area: main;}
 .weekly-feature {grid-area: weekly-feature;}
 .popular-creators {grid-area: popular-creators;}
 .new-uploads {grid-area: new-uploads;}
+.pop-text {grid-area: pop-text;}
+.hey {grid-area: hey;}
 aside {grid-area: aside;}
 footer {grid-area: footer;}
 
@@ -322,7 +324,9 @@ align-items: center;
     display: grid;
     grid-gap: 1em;
     grid-template-areas:
+    'hey hey'
     'weekly-feature weekly-feature'
+    'pop-text'
     'popular-creators popular-creators'
     'new-uploads new-uploads'
     }
