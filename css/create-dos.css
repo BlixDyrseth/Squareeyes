@@ -25,14 +25,7 @@ fieldset {
         max-width: 1000px;
     }
     
-    .input {
-        border-radius: 20px;
-        text-align: left;
-        padding: 1em;
-        max-width: 250px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-    }
+
     
     .boxone,.form {
         border-radius: 20px;
@@ -46,6 +39,14 @@ fieldset {
 
     .form {
         background-color:#598A8E;
+
+     margin: auto;
+     position: relative;
+     font-family: proxima-nova-condensed, sans-serif;
+     font-weight: 300;
+     font-style: normal;
+     font-size: 18px;
+     color: #ffffff;
     }
     .boxone {
         background-color:#000D7C;
