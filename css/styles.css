@@ -267,6 +267,7 @@ footer {grid-area: footer;}
     }
 
     #choose-header {
+        margin-top: 2em;
         color: #EDD9D9;
         }
 
