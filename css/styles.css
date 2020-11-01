@@ -460,9 +460,7 @@ align-items: center;
     align-content: center;
 } 
 
- .films  {
-    display: inline-flex;  
-} 
+ 
 .genres {
     display: none;
     } 
