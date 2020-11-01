@@ -326,7 +326,7 @@ align-items: center;
     grid-template-areas:
     'hey hey'
     'weekly-feature weekly-feature'
-    'pop-text'
+    'pop-text pop-text'
     'popular-creators popular-creators'
     'new-uploads new-uploads'
     }
