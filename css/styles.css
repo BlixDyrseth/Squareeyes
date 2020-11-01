@@ -469,10 +469,12 @@ align-items: center;
 
     #hamburger-menu {
         display: none;
+        margin: 2em;
         } 
 
     #hamburger-menu:checked ~ .genres {
         display: block;
+        
     }
 
     .thumbnails-search{
