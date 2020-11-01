@@ -737,6 +737,7 @@ align-items: center;
     margin-left: auto;
     display: grid;
     grid-gap: 1em;
+    max-width: auto;
     }
 
 
