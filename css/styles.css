@@ -248,7 +248,7 @@ footer {grid-area: footer;}
 
 #mainlearnmore {
     max-width: 800px;
-    margin-left: 50px;
+    margin-left: 80px;
     display: grid;
     grid-gap: 1em;
     grid-template-areas:
@@ -276,6 +276,7 @@ footer {grid-area: footer;}
         } 
             .create-watcher {
             background-image: url(../images/background-watcher.jpg);
+            margin-left: 30px;
             } 
             
             .create-creator {
