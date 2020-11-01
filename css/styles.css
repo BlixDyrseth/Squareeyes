@@ -694,7 +694,7 @@ align-items: center;
                 'main aside'
                 'footer footer'
             } 
-            
+
 
     
     
@@ -875,6 +875,27 @@ align-items: center;
     margin: auto;
 } 
 
+#choosebody {    
+    grid-template-areas: 
+    'header'
+    'main'
+    'main'
+    'aside'
+    'aside'
+    'footer'
+}
+
+#choosebody {
+    max-width: 350px;
+    flex-direction: column;
+} 
+.choose-w,.choose-c {
+    padding: 30px;
+    min-height: auto;
+    max-width: 350px;
+    flex-direction: column;
+    flex: 1;
+} 
 
 }
         
