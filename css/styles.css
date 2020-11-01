@@ -391,7 +391,8 @@ align-items: center;
 
 #searchpage {
         font-family: proxima-nova-condensed, sans-serif;
-        src: url(https://use.typekit.net/hdw2xvn.css);    
+        src: url(https://use.typekit.net/hdw2xvn.css);   
+        display: flex; 
     }
 
 .genres {
