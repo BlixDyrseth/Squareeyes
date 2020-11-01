@@ -463,7 +463,26 @@ align-items: center;
  #main.search   {
     display: inline-flex;  
 } 
+.genres {
+    display: none;
+    } 
 
+    #hamburger-menu {
+        display: none;
+        margin: 2em;
+        } 
+
+    #hamburger-menu:checked ~ .genres {
+        display: none;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        background-color: #CAD0D9;
+        max-width: 300px;
+        font-size: 20px;
+        max-height: 500px;
+        
+    }
 
     .thumbnails-search{
         max-width: 200px;
