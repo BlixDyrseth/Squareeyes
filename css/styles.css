@@ -809,5 +809,52 @@ align-items: center;
         flex: 1;
     } 
 
+
+            /*account page page*/
+
+#accountpage {
+   
+    grid-template-areas: 
+    'header'
+    'main'
+    'main'
+    'aside'
+    'aside'
+   }
+
+#h2account {
+    font-size: 20px;
+}  
+
+   .profile-picture {
+    border-radius: 50%;
+    max-width: 350px;
+    margin-left: 3em;
+} 
+.enkel-logo {
+    max-width: 50px;
+}  
+
+.explore {
+    margin: 3em;
+} 
+
+.watchlist {
+   
+    align-items: center;
+    min-width: 300px;
+    margin: auto;
+} 
+
+.thumbnail {
+    max-width: 150px;
+} 
+
+.following {
+    flex-direction: column;
+    margin: auto;
+} 
+
+
 }
         
