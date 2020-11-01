@@ -5,6 +5,18 @@ body {
 
 }
 
+.search {
+    display: none;
+    } 
+
+    #search-menu {
+        display: none;
+        } 
+
+    #search-menu:checked ~ .search {
+        display: block;
+    }
+
 @font-face {
     font-family: expo-sans-pro;
     src: url(https://use.typekit.net/hdw2xvn.css);
@@ -439,6 +451,8 @@ align-items: center;
         font-family: proxima-nova-condensed, sans-serif;
         src: url(https://use.typekit.net/hdw2xvn.css);   
     }
+
+
 
  #main.search   {
     display: inline-flex;  
