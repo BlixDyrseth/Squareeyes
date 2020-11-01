@@ -742,10 +742,6 @@ align-items: center;
     'second-paragraph'
     }
 
-    .first-paragraph,.second-paragraph {
-        min-height: 500px;
-        position: relative;
-    }
 
     .create-watcher,.create-creator {
         border-radius: 20px;
