@@ -665,6 +665,7 @@ align-items: center;
             font-style: normal;
             color: #000;
             font-size: 25px;
+            text-align: center;
         }  
 
             #p-purchase {                
@@ -673,6 +674,7 @@ align-items: center;
                 font-style: normal;
                 color: #000;
                 font-size: 25px;
+                text-align: center;
             }  
     
 
