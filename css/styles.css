@@ -607,7 +607,7 @@ align-items: center;
              /*checkout page*/ 
 
         #checkout {
-            background: (#F5EAEA);
+            background: (#ffffff);
             margin: 0 auto;
             display: grid;
             grid-template-areas: 
@@ -618,16 +618,15 @@ align-items: center;
         
         #main-checkout {
             display: flex;
-            align-content: center;
-            
           } 
 
 
         .form {
           display: block;
           background-color: #E7E8E8;
-          margin-left: auto;
           border-radius: 10px;
+          max-width: 400px;
+          max-height: 400px;
         } 
 
             /*purchase page*/
