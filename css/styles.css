@@ -651,8 +651,30 @@ align-items: center;
 
              pp-pic{
                 max-width: 300px;
+                max-height: 200px;
                 position: relative;
             }  
+
+            #h1-purchase{
+                font-size: 50px;
+            }  
+
+            #h2-purchase {                
+            font-family: proxima-nova-condensed, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            color: #000;
+            font-size: 25px;
+        }  
+
+            #p-purchase {                
+                font-family: proxima-nova-condensed, sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                color: #000;
+                font-size: 25px;
+            }  
+    
 
 
 
