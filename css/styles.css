@@ -304,6 +304,11 @@ align-items: center;
 
         /*search page page*/
 
+#searchpage {
+        font-family: proxima-nova-condensed, sans-serif;
+        src: url(https://use.typekit.net/hdw2xvn.css);    
+    }
+
 .genres {
     display: none;
     } 
@@ -314,6 +319,67 @@ align-items: center;
 
     #hamburger-menu:checked ~ .genres {
         display: block;
+    }
+
+    .thumbnails-search{
+        max-width: 150px;
+    }
+
+    .h1-search {
+        font-family: proxima-nova-condensed, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+        color: #000D7C;
+    } 
+
+    .featured {
+        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    } 
+
+    .action {
+        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    } 
+
+    .romance {
+        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    } 
+    
+    .action {
+        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    } 
+
+    .Doucmentary {
+        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    } 
+
+    .thriller {
+        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .horror {
+        display: inline-block;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
             /*film page*/
