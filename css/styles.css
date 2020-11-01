@@ -652,6 +652,7 @@ align-items: center;
             .pp-pic{
                 max-width: 300px;
                 max-height: 200px;
+                align-items: center;
             }  
 
             #h1-purchase{
