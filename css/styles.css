@@ -465,8 +465,6 @@ align-items: center;
 } 
 .genres {
     display: none;
-    display: block;
-    
     } 
 
     #hamburger-menu {
@@ -476,6 +474,9 @@ align-items: center;
 
     #hamburger-menu:checked ~ .genres {
         display: block;
+        display: flex;
+        flex-direction: column;
+        background-color: #CAD0D9;
         
     }
 
