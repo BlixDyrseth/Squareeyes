@@ -745,12 +745,16 @@ align-items: center;
         font-size: 20px;
         }
 
+    aside-learnmore {
+        max-width: 350px;
+        flex-direction: column;
+    } 
     .create-watcher,.create-creator {
         border-radius: 20px;
         text-align: center;
         padding: 30px;
         min-height: auto;
-        max-width: 400px;
+        max-width: 350px;
         flex-direction: column;
         flex: 1;
     } 
