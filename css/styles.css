@@ -138,6 +138,7 @@ main {grid-area: main;}
 .popular-creators {grid-area: popular-creators;}
 .new-uploads {grid-area: new-uploads;}
 .pop-text {grid-area: pop-text;}
+.new-text {grid-area: new-text;}
 .hey {grid-area: hey;}
 aside {grid-area: aside;}
 footer {grid-area: footer;}
@@ -328,6 +329,7 @@ align-items: center;
     'weekly-feature weekly-feature'
     'pop-text pop-text'
     'popular-creators popular-creators'
+    'new-text new-text'
     'new-uploads new-uploads'
     }
 
