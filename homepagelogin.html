@@ -2,11 +2,12 @@
 <html>
   <head>
     <title>SquareEyes</title>
+    <script src="https://kit.fontawesome.com/1c865d2a65.js" crossorigin="anonymous"></script>
     <meta name="description" content="This is a page where you can create and veiw short films">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/styles.css" rel="stylesheet">
   </head>
-  <body>
+  <body id="homepage">
     <header>     
       <nav>
         <a href= "homepagelogin.html"> <img src="images/logo.png" alt="squareeyes company logo" width="270" height="75"> </a>
@@ -16,32 +17,34 @@
              <a href="accountpage_watcher.html"><i class="fas fa-user-alt"></i></a>   
       </nav>
     </header>
-    <main>
+    <main id="main-homepage">
       <h1>Hey, User</h1>
       <section class="weekly-feature">
-        <img class='film-pic' src="images/film-pic.jpg" alt="short film, The barbershop"> 
-        <h2>This weeks feature: The barbershop</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-           sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-           aliquyam erat, sed diam voluptua.</p>
+        <img class='featured-pic' src="images/film-pic.jpg" alt="short film, The barbershop"> 
+        <div class="featured-text">
+          <h2>This weeks feature: The barbershop</h2>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
+             aliquyam erat, sed diam voluptua.</p>
+        </div>
         <p class="link">Learn more</p>
       </section>
         <h2>Popular creator this week</h2>
         <section class="popular-creators">
           <div class="john">
-            <img src="images/creator-profil.jpg">
+            <img class="creator-pic" src="images/creator-profil.jpg">
             <h3>John Creator</h3>
           </div>
           <div class="kim">
-            <img src="images/kim-maker.jpg">
+            <img class="creator-pic" src="images/kim-maker.jpg">
             <h3>Kim Maker</h3>
           </div>
           <div class="lydia">
-            <img src="images/lydia-skaper.jpg">
+            <img class="creator-pic" src="images/lydia-skaper.jpg">
             <h3>Lydia Skaper</h3>
           </div>
           <div class="smith">
-            <img src="images/brian-smith.jpg">
+            <img class="creator-pic" src="images/brian-smith.jpg">
             <h3>Brian Smith</h3>
           </div>
         </section>
