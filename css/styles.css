@@ -158,6 +158,11 @@ footer {grid-area: footer;}
     'footer footer'
    }
 
+   .login-box {
+    display: block;
+    display: none;
+   }
+
    main {
     display: grid;
     grid-gap: 1em;
