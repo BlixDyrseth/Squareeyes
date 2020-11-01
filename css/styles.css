@@ -676,6 +676,12 @@ align-items: center;
                 font-size: 25px;
                 text-align: center;
             }  
+
+            .purchase-sec {                
+                max-height: 900px;
+                align-items: center;
+            }  
+    
     
 
 
