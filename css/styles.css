@@ -745,7 +745,7 @@ align-items: center;
         font-size: 20px;
         }
 
-    aside-learnmore {
+    #aside-learnmore {
         max-width: 350px;
         flex-direction: column;
     } 
