@@ -161,7 +161,24 @@ footer {grid-area: footer;}
    .login-box {
     display: block;
     background-color: #598A8E;
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
    }
+
+   fieldset {
+    margin-top: 3em;
+    border: 0 none;
+    margin-bottom: 3em;
+    }        
+    
+    legend span.accessibility {
+        position: absolute;
+        left: -9999px;
+        width: 100px;
+        height: auto;
+        overflow: hidden;
+    }
 
    main {
     display: grid;
