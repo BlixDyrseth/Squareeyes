@@ -613,13 +613,11 @@ align-items: center;
             grid-template-areas: 
             'header header'
             'main main'
-            'main main'
         }   
         
         #main-checkout {
             display: flex;
           } 
-
 
         .form {
           display: block;
