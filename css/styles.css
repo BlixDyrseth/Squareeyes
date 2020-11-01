@@ -728,6 +728,8 @@ align-items: center;
     grid-template-areas: 
     'header'
     'main'
+    'main'
+    'aside'
     'aside'
     'foote'
    }
