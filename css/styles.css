@@ -844,6 +844,7 @@ align-items: center;
     align-items: center;
     min-width: 300px;
     margin: auto;
+    float: none;
 } 
 
 .thumbnail {
