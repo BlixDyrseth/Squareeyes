@@ -5,7 +5,7 @@ body {
 
 }
 
-.search {
+.search-header {
     display: none;
     } 
 
@@ -13,7 +13,7 @@ body {
         display: none;
         } 
 
-    #search-menu:checked ~ .search {
+    #search-menu:checked ~ .search-header {
         display: block;
     }
 
