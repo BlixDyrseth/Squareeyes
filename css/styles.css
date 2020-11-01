@@ -425,7 +425,7 @@ align-items: center;
         flex-direction: row;
     } 
 
-    .search.block {
+    .search-block {
         display: flex;
         display: block;
         flex-direction: column;
