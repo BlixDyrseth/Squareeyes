@@ -425,7 +425,7 @@ align-items: center;
         flex-direction: row;
     } 
 
-    .featured-block,.action-block,.rom-block,.doc-block,.thriller-block,.horror-block {
+    .search.block {
         display: flex;
         display: block;
         flex-direction: column;
