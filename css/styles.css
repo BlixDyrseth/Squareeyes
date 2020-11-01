@@ -682,6 +682,20 @@ align-items: center;
                 max-height: 900px;
                 align-items: center;
             }  
+
+            #choosebody {
+                background-image: linear-gradient(#F5EAEA, #EDD9D9, #D7A9A9);
+                margin: 0 auto;
+                align-content: center;
+                display: grid;
+                grid-template-areas: 
+                'header header'
+                'main aside'
+                'main aside'
+                'footer footer'
+            } 
+            
+
     
     
 
