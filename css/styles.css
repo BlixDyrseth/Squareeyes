@@ -167,10 +167,12 @@ footer {grid-area: footer;}
     .first-picture {
         max-height: 450px;
         position: relative;
+        padding-top: 2em;
     }   
     .second-picture,.third-picture {
         max-height: 350px;
         position: relative;
+        padding-top: 2em;
     }   
 
     .first-picture,.third-picture {
