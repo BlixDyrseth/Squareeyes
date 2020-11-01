@@ -123,6 +123,7 @@ footer {grid-area: footer;}
 
 
     .footer {
+        padding-left: 2em;
         display: flex;
         flex-direction: row;
         }
