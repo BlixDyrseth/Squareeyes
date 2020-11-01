@@ -123,9 +123,9 @@ footer {grid-area: footer;}
 
 
     .footer {
-        margin-left: 2em;
         display: flex;
         flex-direction: row;
+        align-content: center;
         }
         .info {
             flex: 1;
