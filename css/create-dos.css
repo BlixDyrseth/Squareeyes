@@ -34,7 +34,7 @@ fieldset {
         padding: 30px;
         margin: 30px;
         min-height: 500px;
-        max-width: 400px;
+        min-width: 400px;
     }
 
     .form {
