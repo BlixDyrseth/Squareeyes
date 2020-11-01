@@ -340,7 +340,7 @@ align-items: center;
     } 
     .featured-text {
         flex: 1;
-        max-width: 300px;
+        max-width: 500px;
     } 
 
     .john,.kim,.lydia,.brian {
