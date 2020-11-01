@@ -436,6 +436,7 @@ align-items: center;
         font-style: normal;
         font-size: 20px;
         color: #000;
+        text-decoration: none;
     }
 
     #a-search:hover {
