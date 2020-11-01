@@ -603,7 +603,20 @@ align-items: center;
     margin: 30px;
     max-width: 500px;
 
-}    
+}   
+             /*checkout page*/ 
+
+        #checkout {
+            background: (#F5EAEA);
+            margin: 0 auto;
+            display: flex;
+            align-content: center;
+        }   
+        
+        .form {
+          display: block;
+          color: #E7E8E8;
+        } 
 
             /*purchase page*/
 
