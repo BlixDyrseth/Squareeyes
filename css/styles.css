@@ -353,7 +353,15 @@ align-items: center;
                 'main aside'
                 'main aside'
                 'footer footer'
-               }        
+               } 
+               
+#h1-filmage {
+    font-size: 50px;
+    text-align: left;
+} 
+
+#h2-filmpage
+
 .picture-block {
     padding: 30px;
     margin: 30px;
