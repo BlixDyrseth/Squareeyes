@@ -47,6 +47,7 @@ h3 {
 fieldset {
     margin-top: 3em;
     border: 0 none;
+    margin-bottom: 3em;
     }        
     
     legend span.accessibility {
