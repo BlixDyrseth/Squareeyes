@@ -42,7 +42,7 @@
         <div id="modal" class="modal">
           <div class="login-box">
             <span class="close">&times;</span>
-            <form id="loginform">
+            <form>
               <fieldset>
                 <legend><span class="accessibility">your details</span></legend>
                 <input
@@ -53,9 +53,6 @@
                   id="email"
                   class="form__input"
                 />
-                <div class="form-error" id="loginemailError">
-                  Please enter a valid email adress
-                </div>
                 <input
                   class="login-input"
                   type="password"
@@ -64,10 +61,6 @@
                   id="password"
                   class="form__input"
                 />
-                <div class="form-error" id="passwordError">Wrong password</div>
-                <div class="form-error" id="loginfailed">
-                  User not registered
-                </div>
                 <button type="submit" class="link">Login</button>
               </fieldset>
             </form>
@@ -121,58 +114,54 @@
           <form id="signupform">
             <fieldset>
               <legend><span class="accessibility">your details</span></legend>
-              <input
-                class="login-input"
-                type="name"
-                placeholder="First name"
-                id="firstname"
-              />
-              <div class="form-error" id="firstnameError">
-                Please enter your name
+              <div>
+                <label>
+                  <input class="login-input" name="name" id="firstname" placeholder="First Name" />
+                </label>
+                <div class="form-error" id="firstnameError">
+                  Please enter your name
+                </div>
               </div>
-              <input
-                class="login-input"
-                type="name"
-                placeholder="Last name"
-                id="lastName"
-              />
+              <label>
+                <input class="login-input" name="name" id="lastname" placeholder="Last Name" />
+              </label>
               <div class="form-error" id="lastnameError">
                 Please enter your lastname
               </div>
-              <input
-                class="login-input"
-                type="email"
-                placeholder="Emailadress@gmail.com"
-                name="email"
-                id="addEmail"
-                class="form__input"
-              />
-              <div class="form-error" id="emailError">
-                Please enter a valid email adress
+            </div>
+              <div>
+                <label>
+                  <input class="login-input" name="password" id="makepassword" placeholder="Password" />
+                </label>
+                <div class="form-error" id="passwordError">
+                  Password must be minimum 10 characters
+                </div>
               </div>
-              <input
-                class="login-input"
-                type="password"
-                placeholder="Password"
-                name="password"
-                id="makePassword"
-                class="form__input"
-              />
-              <div class="form-error" id="makepasswordError">
-                Password must be minimum 10 characters
+              <div>
+                <label>
+                  <input class="login-input" name="password" id="repeatpassword" placeholder="Repeat Password" />
+                </label>
+                <div class="form-error" id="repeatpasswordError">
+                  Passwords don't match
+                </div>
               </div>
-              <input
-                class="login-input"
-                type="password"
-                placeholder="Repeat password"
-                name="password"
-                id="repeatPassword"
-                class="form__input"
-              />
-              <div class="form-error" id="repeatPasswordError">
-                Passwords dont match
+
+              <div>
+                <label>
+                  <input
+                    class="login-input"
+                    name="email"
+                    id="emailForm"
+                    placeholder="emailadress@gmail.com"
+                  />
+                </label>
+                <div class="form-error" id="emailError">
+                  Please enter a valid email adress
+                </div>
               </div>
-              <button id="signupbtn" class="link">Sign up</button>
+
+
+              <button class="link">Sign up</button>
             </fieldset>
           </form>
         </div>
@@ -184,8 +173,5 @@
       </p>
     </footer>
     <script src="js/form.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/formcreator.js"></script>
-    <script src="js/formlogin.js"></script>
   </body>
 </html>

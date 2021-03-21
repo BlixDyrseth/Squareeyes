@@ -2,50 +2,91 @@
 <html>
   <head>
     <title>SquareEyes</title>
-    <script src="https://kit.fontawesome.com/1c865d2a65.js" crossorigin="anonymous"></script>
-    <meta name="description" content="This is a page where you can create and veiw short films">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/1c865d2a65.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://use.typekit.net/hdw2xvn.css" />
+    <meta
+      name="description"
+      content="This is a page where you can create and veiw short films"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" />
     <!-- Hotjar Tracking Code for https://vigilant-perlman-42e1e1.netlify.app/ -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:2271033,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2271033, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
   </head>
   <body>
     <header>
-        <nav>
-            <a id="logo" href= "index.html"> <img src="images/logo.png" alt="squareeyes company logo" width="270" height="75"> </a>
-          <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
-          <input type="checkbox" id="hamburger-menu">
-          <div class="login">
-          <a class="link" href="login.html">Login</a>  
+      <nav>
+        <a class="logo" href="index.html">
+          <img
+            src="images/logo.png"
+            alt="squareeyes company logo"
+            width="270"
+            height="75"
+          />
+        </a>
+        <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <div class="login">
+          <a class="link" href="login.html">Login</a>
         </div>
-        </nav>
+      </nav>
     </header>
     <main>
-        <div class="login-box">
-            <form>
-              <fieldset>
-               <legend><span class="accessibility">your details</span></legend>
-                <input class="login-input" type="email" placeholder="Emailadress@gmail.com" 
-                name="email" id="email" class="form__input">     
-                <input class="login-input" type="password" placeholder="Password" name="password" id="password" class="form__input">
-                <button type="submit" class="link">Login</button>
-              </fieldset>
-            </form>
-            <p id="login-text">Not a member? Sign up now!</p>
-            <a class="link" href="choosesignup.html">Sign up</a>
-          </div>
+      <div class="login-box">
+        <form>
+          <fieldset>
+            <legend><span class="accessibility">your details</span></legend>
+            <input
+              class="login-input"
+              type="name"
+              placeholder="First name"
+              id="firstname"
+            />
+            <input
+              class="login-input"
+              type="name"
+              placeholder="Last name"
+              id="lastname"
+            />
+            <input
+              class="login-input"
+              type="email"
+              placeholder="Emailadress@gmail.com"
+              name="email"
+              id="email"
+              class="form__input"
+            />
+            <input
+              class="login-input"
+              type="password"
+              placeholder="Password"
+              name="password"
+              id="password"
+              class="form__input"
+            />
+            <button type="submit" class="link">Login</button>
+          </fieldset>
+        </form>
+        <p id="login-text">Not a member? Sign up now!</p>
+        <a class="link" href="choosesignup.html">Sign up</a>
+      </div>
     </main>
   </body>
 </html>
-
-

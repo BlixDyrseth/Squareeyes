@@ -1,121 +1,175 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SquareEyes</title>
-    <script src="https://kit.fontawesome.com/1c865d2a65.js" crossorigin="anonymous"></script>
-    <meta name="description" content="This is a page where you can create and veiw short films">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" rel="stylesheet">
+    <title>Discover - SquareEyes</title>
+    <script
+      src="https://kit.fontawesome.com/1c865d2a65.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://use.typekit.net/hdw2xvn.css" />
+    <meta
+      name="description"
+      content="On this page you can learn about new releases"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles-dos.css" rel="stylesheet" />
     <!-- Hotjar Tracking Code for https://vigilant-perlman-42e1e1.netlify.app/ -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:2271033,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2271033, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
   </head>
-  <body id="homepage">
-    <header>     
+  <body class="homepage" id="homepage">
+    <header>
       <nav>
-        <a id="logo" href= "homepagelogin.html"> <img src="images/logo.png" alt="squareeyes company logo" width="270" height="75"> </a>
-        <label>Search
-            <input name="Search">
-            </label>
-             <a href="accountpage_watcher.html"><i class="fas fa-user-alt"></i></a>   
+        <a href="searchpage.html">
+          <img
+            class="logo"
+            src="images/logo.png"
+            alt="squareeyes company logo"
+          />
+        </a>
+          <a class="navtext" href="searchpage.html">Films</a>
+          <a id="currentpage" class="navtext" href="homepagelogin.html">Discover</a>
+        </a>
+        <a href="searchpage.html">
+        <button class="search-button" id="searchBtn" type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+      </a>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="profilbtn"><i class="fas fa-user-alt"></i></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="accountpage_watcher.html">Your profile</a>
+            <a href="#">Your watchlist</a>
+            <a href="index.html">Log out</a>
+          </div>
+      </div>
       </nav>
     </header>
-    <main id="main-homepage">
-      <section class="hey">
-      <h1>Hey, User</h1>
-    </section>
+    <main class="main-homepage" id="main-homepage">
+      <div class="hey">
+        <h1 id="hey-text" class="hey-text">Hey, User!</h1>
+      </div>
       <section class="weekly-feature">
-        <img class='featured-pic' src="images/film-pic.jpg" alt="short film, The barbershop"> 
+        <img
+          class="featured-pic"
+          src="images/film-pic.jpg"
+          alt="short film, The barbershop"
+        />
         <div class="featured-text">
           <h2>This weeks feature: The barbershop</h2>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-             sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-             aliquyam erat, sed diam voluptua.</p>
-          <p class="link">Learn more</p>
-         </div>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua.
+          </p>
+          <div class="learnmorebtn">
+            <a href="article.html" class="link">Learn more</a>
+          </div>
+        </div>
       </section>
-      <section class="pop-text">
+      <div class="pop-text">
         <h2>Popular creators this week</h2>
-      </section>
-        <section class="popular-creators">
-          <div class="pop-block">
-            <img class="creator-pic" src="images/creator-profil.jpg">
-            <h3>John Creator</h3>
-          </div>
-          <div class="pop-block">
-            <img class="creator-pic" src="images/kim-maker.jpg">
-            <h3>Kim Maker</h3>
-          </div>
-          <div class="pop-block">
-            <img class="creator-pic" src="images/lydia-skaper.jpg">
-            <h3>Lydia Skaper</h3>
-          </div>
-          <div class="pop-block">
-            <img class="creator-pic" src="images/brian-smith.jpg">
-            <h3>Brian Smith</h3>
-          </div>
-        </section>
-        <section class="new-text">
-          <h2>New uploads</h2>
-        </section>
-          <section class="new-uploads">
-            <div class="new-block">
-           <a href="filmpage.html"></a><img src="images/featured.jpg"></a>
-           <p>The Barbershop</p>
-            </div>
-          <div class="new-block">
-           <img src="images/romance.jpg">
-           <p>Just us</p>
-          </div>
-          <div class="new-block">
-           <img src="images/action.jpg">
-           <p>You're in the army </p>
-          </div>
-        </section>
+      </div>
+      <div class="popular-creators">
+        <div class="pop-block">
+          <img class="creator-pic" src="images/creator-profil.jpg" />
+          <h3>John Creator</h3>
+        </div>
+        <div class="pop-block">
+          <img class="creator-pic" src="images/kim-maker.jpg" />
+          <h3>Kim Maker</h3>
+        </div>
+        <div class="pop-block">
+          <img class="creator-pic" src="images/lydia-skaper.jpg" />
+          <h3>Lydia Skaper</h3>
+        </div>
+        <div class="pop-block">
+          <img class="creator-pic" src="images/brian-smith.jpg" />
+          <h3>Brian Smith</h3>
+        </div>
+      </div>
+      <div class="new-text">
+        <h2>New uploads</h2>
+      </div>
+      <div class="new-uploads">
+        <div class="new-block">
+          <a href="filmpage.html">
+            <img
+              class="new-thumbnail"
+              src="images/featured.jpg"
+              alt="Film: The Barbershop"
+            />
+          </a>
+          <p>The Barbershop</p>
+        </div>
+        <div class="new-block">
+          <img
+            class="new-thumbnail"
+            src="images/romance.jpg"
+            alt="film: Just us"
+          />
+          <p>Just us</p>
+        </div>
+        <div class="new-block">
+          <img
+            class="new-thumbnail"
+            src="images/action.jpg"
+            alt="Film: You´re in the army"
+          />
+          <p>You're in the army</p>
+        </div>
+      </div>
     </main>
     <footer>
       <section class="footer">
         <div class="info">
           <h3>INFORMATION</h3>
-        <ul>
-          <li>Costumer Service</li>
-          <li>Terms and Conditions</li>
-          <li>Privacy</li>
-          <li>Complains</li>
-        </ul>
-      </div>
-      <div class="resrc">
-        <h3>RESOURCES</h3>
-        <ul>
-          <li>Help Center</li>
-        </ul>
-      </div>
-      <div class="company">
-        <h3>COMPANY</h3>
-        <ul>
-          <li>About us</li>
-        </ul>
-      </div>
-      <div class="follow">
-        <h3>FOLLOW US</h3>
-        <ul>
-          <li>Instagram</li>
-          <li>Twitter</li>
-          <li>Linkedin</li>
-          <li>Facebook</li>
-        </ul>
-      </div>
-    </section>
-      <p>&COPY;2020 SQUAREEYES AS (org. 348848739874). All rights reserved.</p>
+          <ul class="footer-text">
+            <li>Costumer Service</li>
+            <li>Terms and Conditions</li>
+            <li>Privacy</li>
+            <li>Complains</li>
+          </ul>
+        </div>
+        <div class="resrc">
+          <h3>RESOURCES</h3>
+          <ul class="footer-text">
+            <li>Help Center</li>
+          </ul>
+        </div>
+        <div class="company">
+          <h3>COMPANY</h3>
+          <ul class="footer-text">
+            <li>About us</li>
+          </ul>
+        </div>
+        <div class="follow">
+          <h3>FOLLOW US</h3>
+          <ul class="footer-text">
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Linkedin</li>
+            <li>Facebook</li>
+          </ul>
+        </div>
+      </section>
+      <p class="copyright">
+        &COPY;2020 SQUAREEYES AS (org. 348848739874). All rights reserved.
+      </p>
     </footer>
+    <script src="js/nav.js"></script>
   </body>
 </html>

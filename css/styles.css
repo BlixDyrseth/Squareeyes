@@ -62,7 +62,7 @@ header {
     flex-direction: row;
  }
 
- #logo  {
+ .logo  {
     margin-left: 3em;
  }
 
@@ -91,10 +91,6 @@ a:link {
     color: white;
 }    
 a:visited {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 25px;
     color: white;
     text-decoration: none;
 } 
@@ -203,7 +199,7 @@ footer {grid-area: footer;}
         margin-bottom: 1em;
     } 
 
-   main {
+    .main-frontpage {
     display: grid;
     grid-gap: 1em;
     grid-template-areas:
@@ -501,7 +497,7 @@ align-items: center;
         max-width: 200px;
     }
 
-    #h1-search {
+    .h2-search {
         font-family: proxima-nova-condensed, sans-serif;
         font-weight: 800;
         font-style: normal;
@@ -510,7 +506,7 @@ align-items: center;
         text-align: left;
     } 
 
-    #a-search {
+    .a-search {
         font-family: proxima-nova-condensed, sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -518,21 +514,11 @@ align-items: center;
         color: #000;
     }
 
-    #a-search:visited {
-        font-family: proxima-nova-condensed, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 20px;
-        color: #000;
+    .a-search:visited {
         text-decoration: none;
     }
 
-    #a-search:hover {
-        font-family: proxima-nova-condensed, sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        font-size: 20px;
-        color: #000;
+    .a-search:hover {
         text-decoration: underline;
     }
 
@@ -785,7 +771,7 @@ align-items: center;
 
                /*learn more page mobile*/
 
-#learnmore {
+.learnmore {
     display: grid;
     margin: 0 auto;
     max-width: 400px;
@@ -800,7 +786,7 @@ align-items: center;
     'footer'
    }
 
-#mainlearnmore {
+.mainlearnmore {
     margin-left: auto;
     display: grid;
     grid-gap: 1em;
@@ -811,7 +797,7 @@ align-items: center;
         font-size: 20px;
         }
 
-    #aside-learnmore {
+    .aside-learnmore {
         max-width: 350px;
         flex-direction: column;
     } 
@@ -823,14 +809,14 @@ align-items: center;
         flex: 1;
     } 
 
-    #choose-header {
+    .choose-header {
         margin-top: 0em;
         }
 
 
             /*account page page*/
 
-#accountpage {
+.accountpage {
    
     grid-template-areas: 
     'header'
@@ -840,7 +826,7 @@ align-items: center;
     'aside'
    }
 
-#h2account {
+.h2account {
     font-size: 20px;
 }  
 
@@ -874,7 +860,7 @@ align-items: center;
     margin: auto;
 } 
 
-#choosebody {    
+.choosebody {    
     grid-template-areas: 
     'header'
     'main'
@@ -884,7 +870,7 @@ align-items: center;
     'footer'
 }
 
-#choosebody {
+.choosebody {
     max-width: 350px;
     flex-direction: column;
 } 
@@ -896,7 +882,7 @@ align-items: center;
     flex: 1;
 } 
 
-#main-search {
+.main-search {
     margin-left: auto;
     display: flex;
     grid-gap: 1em;

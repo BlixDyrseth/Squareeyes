@@ -1,50 +1,112 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SquareEyes</title>
-    <script src="https://kit.fontawesome.com/1c865d2a65.js" crossorigin="anonymous"></script>
-    <meta name="description" content="This is a page where you can create and veiw short films">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" rel="stylesheet">
+    <title>Checkout - SquareEyes</title>
+    <link rel="stylesheet" href="https://use.typekit.net/hdw2xvn.css" />
+    <script
+      src="https://kit.fontawesome.com/1c865d2a65.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="description" content="This is the checkout" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles-dos.css" rel="stylesheet" />
     <!-- Hotjar Tracking Code for https://vigilant-perlman-42e1e1.netlify.app/ -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:2271033,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2271033, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
   </head>
-  <body id="checkout">
+  <body class="checkout" id="checkout">
     <header>
       <nav>
-        <a id="logo" href= "homepagelogin.html"> <img src="images/logo.png" alt="squareeyes company logo" width="270" height="75"> </a>
-        <label>Search
-            <input name="Search">
-            </label>
-             <a href="accountpage_watcher.html"><i class="fas fa-user-alt"></i></a>  
+        <a href="searchpage.html">
+          <img
+            class="logo"
+            src="images/logo.png"
+            alt="squareeyes company logo"
+          />
+        </a>
+          <a class="navtext" href="searchpage.html">Films</a>
+          <a class="navtext" href="homepagelogin.html">Discover</a>
+        </a>
+        <a href="searchpage.html">
+          <button class="search-button" id="searchBtn" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </a>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="profilbtn"><i class="fas fa-user-alt"></i></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="accountpage_watcher.html">Your profile</a>
+            <a href="#">Your watchlist</a>
+            <a href="index.html">Log out</a>
+          </div>
+      </div>
       </nav>
     </header>
-    <main id="main-checkout">
-        <div class="form">
-            <form>
-              <fieldset>
-               <legend><span class="accessibility">your details</span></legend>
-               <i class="fab fa-cc-visa"></i><input type="radio" id="visa" name="payment" for="visa" class="form__input">  
-               <i class="fab fa-paypal"></i> <input type="radio" id="paypal" name="paypal" for="paypal" class="form__input">    
-                <input type="card-number" placeholder="Card number" name="card-number" id="card-number" class="form__input">
-                <input type="expiration-date" placeholder="Expiration date" name="expiration-date" id="expiration-date" class="form__input">
-                <input type="css" placeholder="CSS" name="css" id="css" class="form__input">
-              </fieldset>
-            </form>
-            <div class="link">
-            <a href="purchasepage.html">Pay</a>
-           </div>
-            </div>
+    <main id="main-checkout" class="main-checkout">
+      <div class="checkout-form">
+        <form>
+          <fieldset>
+            <legend><span class="accessibility">your details</span></legend>
+            <i class="fab fa-cc-visa"></i
+            ><input
+              type="radio"
+              id="visa"
+              name="payment"
+              for="visa"
+              class="form__input"
+            />
+            <i class="fab fa-paypal"></i>
+            <input
+              type="radio"
+              id="paypal"
+              name="payment"
+              for="paypal"
+              class="form__input"
+            />
+            <input
+              class="checkout-input"
+              type="card-number"
+              placeholder="Card number"
+              name="card-number"
+              id="card-number"
+              class="form__input"
+            />
+            <input
+              class="checkout-input-small"
+              type="expiration-date"
+              placeholder="Expiration date"
+              name="expiration-date"
+              id="expiration-date"
+              class="form__input"
+            />
+            <input
+              class="checkout-input-small"
+              type="css"
+              placeholder="CSS"
+              name="css"
+              id="css"
+              class="form__input"
+            />
+          </fieldset>
+        </form>
+        <div>
+          <a class="link" href="purchasepage.html">Pay</a>
+        </div>
+      </div>
     </main>
+    <script src="js/nav.js"></script>
   </body>
 </html>

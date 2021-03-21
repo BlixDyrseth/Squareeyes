@@ -1,62 +1,107 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SquareEyes</title>
-    <link rel="stylesheet" href="https://use.typekit.net/hdw2xvn.css">
-    <script src="https://kit.fontawesome.com/1c865d2a65.js" crossorigin="anonymous"></script>
-    <meta name="description" content="About the film: The Barbershop">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" rel="stylesheet">
+    <title>The Barbershop - SquareEyes</title>
+    <link rel="stylesheet" href="https://use.typekit.net/hdw2xvn.css" />
+    <script
+      src="https://kit.fontawesome.com/1c865d2a65.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="description" content="About the film: The Barbershop" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles-dos.css" rel="stylesheet" />
     <!-- Hotjar Tracking Code for https://vigilant-perlman-42e1e1.netlify.app/ -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:2271033,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2271033, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
   </head>
-  <body id="filmpage">
+  <body class="filmpage" id="filmpage">
     <header>
       <nav>
-        <a id="logo" href= "homepagelogin.html"> <img src="images/logo.png" alt="squareeyes company logo" width="270" height="75"> </a>
-        <label>Search
-            <input name="Search">
-            </label>
-             <a href="accountpage_watcher.html"><i class="fas fa-user-alt"></i></a>  
+        <a href="searchpage.html">
+          <img
+            class="logo"
+            src="images/logo.png"
+            alt="squareeyes company logo"
+          />
+        </a>
+          <a class="navtext" href="searchpage.html">Films</a>
+          <a class="navtext" href="homepagelogin.html">Discover</a>
+        </a>
+        <a href="searchpage.html">
+          <button class="search-button" id="searchBtn" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </a>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="profilbtn"><i class="fas fa-user-alt"></i></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="accountpage_watcher.html">Your profile</a>
+            <a href="#">Your watchlist</a>
+            <a href="index.html">Log out</a>
+          </div>
+      </div>
       </nav>
-    </header> 
-    <main>
-        <section class="picture-block">
-        <img class='film-pic' src="images/film-pic.jpg" alt="short film, The barbershop">  
-        <div class="film-info">
-         <p class="fp">15:37</p>
-         <p class="fp">Thriller, Drama</p>
-         <p class="fp">2019</p>
-         <p class="fp">Age restriction 15</p>
+      <div id="modalRent" class="modalrent">
+        <div class="gotocheckout">
+        <span class="close-me">&times;</span>
+        <h3>You found your film?</h3>
+        <div>
+          <a href="checkout.html" class="link">Yes, go to checkout</a>
+          <a class="small-text">Nevermind</a>
         </div>
-        </section>
+      </div>
+      </div>
+    </header>
+    <main>
+      <section class="picture-block">
+        <img
+          class="film-pic"
+          src="images/film-pic.jpg"
+          alt="short film, The barbershop"
+        />
+        <div class="film-info">
+          <p class="fp">15:37</p>
+          <p class="fp">Thriller, Drama</p>
+          <p class="fp">2019</p>
+          <p class="fp">Age restriction 15</p>
+        </div>
+      </section>
     </main>
     <aside>
-        <section class="text-block">
-        <h1 id="h1-filmpage">The Barbershop</h1>
-        <h2 id="h2-filmpage">by <a href="aboutpage.html">John Creator</a></h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.  
-         </p>
-            <a class="link" href="checkout">Rent</a>
-        </section>
+      <section class="text-block">
+        <h1 class="h1-filmpage">The Barbershop</h1>
+        <h2 class="h2-filmpage">
+          by <a class="h2-filmpage" href="#">John Creator</a>
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+          rebum.
+        </p>
+        <div class="rentbtn" id="rentbtn">
+          <a class="link">Rent</a>
+        </div>
+      </section>
     </aside>
     <footer>
-        <section class="footer">
-          <div class="info">
-            <h3>INFORMATION</h3>
-          <ul>
+      <section class="footer">
+        <div class="info">
+          <h3>INFORMATION</h3>
+          <ul class="footer-text">
             <li>Costumer Service</li>
             <li>Terms and Conditions</li>
             <li>Privacy</li>
@@ -65,19 +110,19 @@
         </div>
         <div class="resrc">
           <h3>RESOURCES</h3>
-          <ul>
+          <ul class="footer-text">
             <li>Help Center</li>
           </ul>
         </div>
         <div class="company">
           <h3>COMPANY</h3>
-          <ul>
+          <ul class="footer-text">
             <li>About us</li>
           </ul>
         </div>
         <div class="follow">
           <h3>FOLLOW US</h3>
-          <ul>
+          <ul class="footer-text">
             <li>Instagram</li>
             <li>Twitter</li>
             <li>Linkedin</li>
@@ -85,8 +130,11 @@
           </ul>
         </div>
       </section>
-        <p>&COPY;2020 SQUAREEYES AS (org. 348848739874). All rights reserved.</p>
-      </footer>
-    </body>
-  </html>
-  
+      <p class="copyright">
+        &COPY;2020 SQUAREEYES AS (org. 348848739874). All rights reserved.
+      </p>
+    </footer>
+    <script src="js/nav.js"></script>
+  <script src="js/modal.js"></script>
+  </body>
+</html>

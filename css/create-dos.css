@@ -36,7 +36,7 @@ h1, h2 {
     font-size: 18px;
     color: #ffffff;
 }
-h3 {
+h3, .h2-filmpage {
     font-family: proxima-nova-condensed, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -80,6 +80,10 @@ fieldset {
         margin: 30px;
         min-height: 450px;
         min-width: 400px;
+    }
+    
+    .pickme {
+        display: none;
     }
 
     .form {

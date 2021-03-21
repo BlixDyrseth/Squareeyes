@@ -1,105 +1,165 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://use.typekit.net/hdw2xvn.css">
-    <title>SquareEyes</title>
-    <meta name="description" content="This is a page where you can create and view short films">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/hdw2xvn.css" />
+    <title>Learn more about us - SquareEyes</title>
+    <meta name="description" content="Learn more about Squareeyes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles-dos.css" rel="stylesheet" />
     <!-- Hotjar Tracking Code for https://vigilant-perlman-42e1e1.netlify.app/ -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:2271033,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2271033, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
   </head>
-  <body id="learnmore"> 
+  <body class="learnmore">
     <header>
-      <nav></nav>
-      <a id="logo" href= "index.html"> <img src="images/logo.png" alt="squareeyes company logo" width="270" height="75"> </a>
-      <div class="login">
-        <a class="link" href="login.html">Login</a>  
-      </div>  
+      <nav>
+        <a href="index.html">
+          <img
+            class="logo"
+            src="images/logo.png"
+            alt="squareeyes company logo"
+          />
+        </a>
+        <div class="login">
+          <a class="link">Login</a>
+        </div>
+        <div id="modal" class="modal">
+          <div class="login-box">
+            <span class="close">&times;</span>
+            <form id="loginform">
+              <fieldset>
+                <legend><span class="accessibility">your details</span></legend>
+                <input
+                  class="login-input"
+                  type="email"
+                  placeholder="Emailadress@gmail.com"
+                  name="email"
+                  id="email"
+                  class="form__input"
+                />
+                <div class="form-error" id="loginemailError">
+                  Please enter a valid email adress
+                </div>
+                <input
+                  class="login-input"
+                  type="password"
+                  placeholder="Password"
+                  name="password"
+                  id="password"
+                  class="form__input"
+                />
+                <div class="form-error" id="passwordError">Wrong password</div>
+                <div class="form-error" id="loginfailed">
+                  User not registered
+                </div>
+                <button type="submit" class="link">Login</button>
+              </fieldset>
+            </form>
+            <p class="login-text">Not a member? Sign up now!</p>
+            <a class="link" href="choosesignup.html">Sign up</a>
+          </div>
+        </div>
       </nav>
     </header>
-    <main id="mainlearnmore">
-      
+    <main class="mainlearnmore">
       <h1>Connecting film-lovers</h1>
       <section class="first-paragraph">
-      <h3>Passionate about filmmaking? Or passionate about film watching?</h3>
-      <div>
-      <p>Lorem ipsum dolor sitamet, consetetetur sadipscing eltir, sed diam nonumy eirmod 
-        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam 
-        et justo duo dolores et ea rebum. Stet Clita kasd gubergren.</p>
-      </div>
-      <div>
-      <p>no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
-        consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore 
-        magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea 
-        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>  
-      </div>
-    </section>
-    <section class="second-paragraph">
-      <h3>Watch short films, support creators</h3>
-      <div>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
-        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam 
-        et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est 
-        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.
+        <h3>Passionate about filmmaking? Or passionate about film watching?</h3>
+        <div>
+          <p>
+            Lorem ipsum dolor sitamet, consetetetur sadipscing eltir, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet Clita kasd gubergren.
+          </p>
+        </div>
+        <div>
+          <p>
+            no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+            dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+            voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+            dolor sit amet.
+          </p>
+        </div>
+      </section>
+      <section class="second-paragraph">
+        <h3>Watch short films, support creators</h3>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam.
+          </p>
+        </div>
+      </section>
+    </main>
+    <aside class="aside-learnmore">
+      <section class="create-watcher">
+        <h2 class="choose-header">WATCHER</h2>
+        <a class="green-link" href="createaccount_watcher.html">Sign up</a>
+      </section>
+      <section class="create-creator">
+        <h2 class="choose-header">CREATOR</h2>
+        <a class="green-link" href="createaccount_creator.html">Sign up</a>
+      </section>
+    </aside>
+    <footer>
+      <section class="footer">
+        <div class="info">
+          <h3>INFORMATION</h3>
+          <ul class="footer-text">
+            <li>Costumer Service</li>
+            <li>Terms and Conditions</li>
+            <li>Privacy</li>
+            <li>Complains</li>
+          </ul>
+        </div>
+        <div class="resrc">
+          <h3>RESOURCES</h3>
+          <ul class="footer-text">
+            <li>Help Center</li>
+          </ul>
+        </div>
+        <div class="company">
+          <h3>COMPANY</h3>
+          <ul class="footer-text">
+            <li>About us</li>
+          </ul>
+        </div>
+        <div class="follow">
+          <h3>FOLLOW US</h3>
+          <ul class="footer-text">
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Linkedin</li>
+            <li>Facebook</li>
+          </ul>
+        </div>
+      </section>
+      <p class="copyright">
+        &COPY;2020 SQUAREEYES AS (org. 348848739874). All rights reserved.
       </p>
-      </div>
-    </section>
-  </main>
-  <aside id="aside-learnmore">
-    <section class="create-watcher">
-    <h2 id="choose-header">WATCHER</h2>
-    <a class="green-link" href="createaccount_watcher.html">Sign up</a>
-  </section>
-  <section class="create-creator">
-    <h2 id="choose-header">CREATOR</h2>
-    <a class="green-link" href="createaccount_creator.html">Sign up</a>
-  </section>
-</aside>
-<footer>
-  <section class="footer">
-    <div class="info">
-      <h3>INFORMATION</h3>
-    <ul>
-      <li>Costumer Service</li>
-      <li>Terms and Conditions</li>
-      <li>Privacy</li>
-      <li>Complains</li>
-    </ul>
-  </div>
-  <div class="resrc">
-    <h3>RESOURCES</h3>
-    <ul>
-      <li>Help Center</li>
-    </ul>
-  </div>
-  <div class="company">
-    <h3>COMPANY</h3>
-    <ul>
-      <li>About us</li>
-    </ul>
-  </div>
-  <div class="follow">
-    <h3>FOLLOW US</h3>
-    <ul>
-      <li>Instagram</li>
-      <li>Twitter</li>
-      <li>Linkedin</li>
-      <li>Facebook</li>
-    </ul>
-  </div>
-</section>
-  <p>&COPY;2020 SQUAREEYES AS (org. 348848739874). All rights reserved.</p>
-</footer>
-</body>
+    </footer>
+    <script src="js/form.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/formlogin.js"></script>
+  </body>
 </html>
