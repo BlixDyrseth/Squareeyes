@@ -1,4 +1,4 @@
-const url = "http://ingridblixdyrseth.no/wp-json/wc/store/products?_embed/";
+const url = "https://ingridblixdyrseth.no/wp-json/wc/store/products?_embed/";
 
 const filmBlock = document.querySelector(".search-block")
 

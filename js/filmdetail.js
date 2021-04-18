@@ -10,7 +10,7 @@ const params = new URLSearchParams(queryString);
 
 const id = params.get("id");
 
-const url = "http://ingridblixdyrseth.no/wp-json/wc/store/products/" + id;
+const url = "https://ingridblixdyrseth.no/wp-json/wc/store/products/" + id;
 
 console.log(url)
 
