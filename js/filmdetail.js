@@ -38,14 +38,14 @@ getOneFilm();
 function createHtml(detail) {
     filmContainer.innerHTML += `<h1>${detail.name}</h1>
     <div class="detail-text">
-    <p>Genre: ${detail.categories.name}</p><p>${detail.prices.currency_symbol} ${detail.prices.price}</p>
+    <p>Genre: ${detail.categories[0].name}</p><p>${detail.prices.currency_symbol} ${detail.prices.price}</p>
     <p>${detail.description}</p>
     <div class="rentbtn" id="rentbtn">
     <a href="checkout.html" class="link">${detail.add_to_cart.text}</a>
     <div>
     </div>`
 
-    picContainer.innerHTML += `<div class="image" style="background-image: url('${detail.images.thumbnail}')"</div>`
+    picContainer.innerHTML += `<img class="film-pic" src="${detail.images[0].src}" alt="${detail.images[0].alt}"/>`
 
     titleDetails.innerHTML = `${detail.name}`
 }
