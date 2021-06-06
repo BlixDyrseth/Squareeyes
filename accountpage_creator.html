@@ -13,22 +13,6 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/styles-dos.css" rel="stylesheet" />
-    <!-- Hotjar Tracking Code for https://vigilant-perlman-42e1e1.netlify.app/ -->
-    <script>
-      (function (h, o, t, j, a, r) {
-        h.hj =
-          h.hj ||
-          function () {
-            (h.hj.q = h.hj.q || []).push(arguments);
-          };
-        h._hjSettings = { hjid: 2271033, hjsv: 6 };
-        a = o.getElementsByTagName("head")[0];
-        r = o.createElement("script");
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-    </script>
   </head>
   <body class="accountpage">
     <header>
@@ -40,22 +24,38 @@
             alt="squareeyes company logo"
           />
         </a>
+        <div class="menu" id="menu">
+          <span class="close-menu">&times;</span>
           <a class="navtext" href="newsearch.html">Films</a>
           <a class="navtext" href="homepagelogin.html">Discover</a>
         </a>
-        <a href="newsearch.html">
-          <button class="search-button" id="searchBtn" type="submit">
-            <i class="fas fa-search"></i>
+        <button class="search-button" id="searchBtn" type="submit">
+          <p class="text-screen-small">Search</p>
+          <i class="fas fa-search"></i>
+        </button>
+        <div class="cart-things">
+          <div class="count-container">0</div>
+        <a href="cart.html">
+          <button class="cart-button" id="cartBtn">
+            <p class="text-screen-small">Cart</p>
+            <i class="fas fa-shopping-cart"></i>
           </button>
         </a>
+      </div>
         <div class="dropdown">
-          <button onclick="myFunction()" class="profilbtn"><i class="fas fa-user-alt"></i></button>
+          <button onclick="myFunction()" class="profilbtn">
+            <p class="text-screen-small">Profile</p>
+            <i class="fas fa-user-alt"></i></button>
           <div id="myDropdown" class="dropdown-content">
             <a href="accountpage_watcher.html">Your profile</a>
             <a href="#">Your watchlist</a>
             <a href="index.html">Log out</a>
           </div>
       </div>
+        </div>
+        <button class="menu-button" id="menuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
       </nav>
     </header>
     <main class="main-accountpage">
@@ -120,6 +120,7 @@
           <h3>RESOURCES</h3>
           <ul class="footer-text">
             <li>Help Center</li>
+            <li><a class="contact-link" href="contact.html">Contact us</a></li>
           </ul>
         </div>
         <div class="company">

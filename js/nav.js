@@ -2,7 +2,6 @@
 
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
-    console.log("funker denne egentlig?")
   }
   
   window.onclick = function(event) {
@@ -24,6 +23,25 @@ function myFunction() {
     document.getElementById("search").scrollIntoView({
        behavior: "smooth"
     });
+}
+
+const menuBtn = document.querySelector(".menu-button");
+const menu = document.querySelector(".menu");
+const closeMenu = document.querySelector(".close-menu");
+
+menuBtn.onclick = function() {
+  menu.style.display = "flex";
+}
+
+closeMenu.onclick = function() {
+  menu.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if(event.target == menu) {
+    menu.style.display = "none";
+    closeMenu.style.display = "none";
+}
 }
 
 

@@ -1,12 +1,11 @@
 //go to checkout
 const modalRent = document.getElementById("modalRent");
-const rentbtn = document.getElementById("rentbtn");
+const rentbtn = document.querySelector(".rentbtn");
 const close = document.querySelector(".close-me");
 const nevermind = document.querySelector(".small-text");
+const counter = document.querySelector(".count-container");
 
-rentbtn.onclick = function() {
-    modalRent.style.display = "block";
-}
+console.log(rentbtn);
 
 close.onclick = function() {
     modalRent.style.display = "none"

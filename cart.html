@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Discover - SquareEyes</title>
+    <title>Cart - SquareEyes</title>
+    <link rel="stylesheet" href="https://use.typekit.net/hdw2xvn.css" />
     <script
       src="https://kit.fontawesome.com/1c865d2a65.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="https://use.typekit.net/hdw2xvn.css" />
-    <meta
-      name="description"
-      content="On this page you can learn about new releases"
-    />
+    <meta name="description" content="About the film: The Barbershop" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="css/styles-dos.css" rel="stylesheet" />
   </head>
-  <body class="homepage" id="homepage">
+  <body class="cart-body">
     <header>
       <nav>
         <a href="newsearch.html">
@@ -27,14 +24,14 @@
         <div class="menu" id="menu">
           <span class="close-menu">&times;</span>
           <a class="navtext" href="newsearch.html">Films</a>
-          <a id="currentpage"class="navtext" href="homepagelogin.html">Discover</a>
+          <a class="navtext" href="homepagelogin.html">Discover</a>
         </a>
         <button class="search-button" id="searchBtn" type="submit">
           <p class="text-screen-small">Search</p>
           <i class="fas fa-search"></i>
         </button>
         <div class="cart-things">
-          <div class="count-container">0</div>
+          <div class="count-container">2</div>
         <a href="cart.html">
           <button class="cart-button" id="cartBtn">
             <p class="text-screen-small">Cart</p>
@@ -58,54 +55,39 @@
         </button>
       </nav>
     </header>
-    <main class="main-homepage" id="main-homepage">
-      <div class="hey">
-        <h1 id="hey-text" class="hey-text">Hey, User!</h1>
-      </div>
-      <section class="weekly-feature">
-        <img
-          class="featured-pic"
-          src="images/film-pic.jpg"
-          alt="short film, The barbershop"
-        />
-        <div class="featured-text">
-          <h2>This weeks feature: The barbershop</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua.
-          </p>
-          <div class="learnmorebtn">
-            <a href="article.html" class="link">Learn more</a>
-          </div>
+    <main>
+        <div class="main-cart">
+        <div class="cart-container">
+            <h1>My cart</h1>
+        <div class="purchase-item">
+            <img class="purchase-img" src="images/featured.jpg"> 
+            <div class="purchase-info">
+            <h3>57 NOK</h3>
+            <p>The Barbershop</p>
+            </div>
+            <span class="remove-item">&times;</span>
         </div>
-      </section>
-      <div class="pop-text">
-        <h2>Popular creators this week</h2>
-      </div>
-      <div class="popular-creators">
-        <div class="pop-block">
-          <img class="creator-pic" src="images/creator-profil.jpg" />
-          <h3>John Creator</h3>
+        <div class="purchase-item">
+            <img class="purchase-img" src="images/romance.jpg"> 
+            <div class="purchase-info">
+            <h3>45 Kr</h3>
+            <p>Just Us</p>
+            </div>
+            <span class="remove-item">&times;</span>
         </div>
-        <div class="pop-block">
-          <img class="creator-pic" src="images/kim-maker.jpg" />
-          <h3>Kim Maker</h3>
+        <div class="total-container">
+        <h3 class="total-text">Total:</h3>
+        <h3>102 Kr</h3>
+    </div>
         </div>
-        <div class="pop-block">
-          <img class="creator-pic" src="images/lydia-skaper.jpg" />
-          <h3>Lydia Skaper</h3>
+        <div class="cart-checkout-container">
+            <h2>Total</h2>
+              <h3>Total: 102 kr</h3>
+            <div>
+                <a class="link" href="checkout.html">Checkout</a>
+            </div>
         </div>
-        <div class="pop-block">
-          <img class="creator-pic" src="images/brian-smith.jpg" />
-          <h3>Brian Smith</h3>
-        </div>
-      </div>
-      <div class="new-text">
-        <h2>New uploads</h2>
-      </div>
-      <div class="new-uploads">
-      </div>
+    </div>
     </main>
     <footer>
       <section class="footer">
@@ -146,6 +128,7 @@
       </p>
     </footer>
     <script src="js/nav.js"></script>
-    <script src="js/films.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/contact-form.js"></script>
   </body>
 </html>
